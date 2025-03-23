@@ -16,7 +16,10 @@ const Navbar = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
         >
-            <div className="container mx-auto flex items-center justify-between p-2">
+
+
+            <div 
+            className="container mx-auto flex items-center justify-between p-2">
                 {/* Left - Logo */}
                 <motion.div 
                     className="flex items-center space-x-2"
@@ -38,16 +41,16 @@ const Navbar = () => {
                     transition={{ duration: 0.5, delay: 0.4 }}
                 >
                     <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-                        <Link to="/" className="text-gray-700 hover:text-blue-600">Home</Link>
+                        <Link to="/" className="text-gray-700 font-semibold hover:text-blue-600">Home</Link>
                     </motion.li>
                     <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-                        <Link to="/map" className="text-gray-700 hover:text-blue-600">Map</Link>
+                        <Link to="/map" className="text-gray-700 font-semibold hover:text-blue-600">Map</Link>
                     </motion.li>
                     <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-                        <Link to="/about" className="text-gray-700 hover:text-blue-600">About</Link>
+                        <Link to="/about" className="text-gray-700 font-semibold hover:text-blue-600">About</Link>
                     </motion.li>
                     <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-                        <Link to="/join" className="text-gray-700 hover:text-blue-600">Join Us</Link>
+                        <Link to="/join" className="text-gray-700 font-semibold hover:text-blue-600">Join Us</Link>
                     </motion.li>
                 </motion.ul>
 

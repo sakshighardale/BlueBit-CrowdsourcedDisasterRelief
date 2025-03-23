@@ -3,15 +3,15 @@ import Footer from "./Footer";
 import backgroundImage from "../assets/background.png";
 import { AnimatePresence, motion } from "framer-motion";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (
     <>
       <AnimatePresence>
-
         {/* Background Section */}
         <div
-          className="relative w-full h-screen bg-cover bg-center flex items-center justify-center"
+          className="relative w-full h-screen bg-cover mb-[0.1rem] bg-center flex items-center justify-center"
           style={{ backgroundImage: `url(${backgroundImage})` }}
         >
           {/* Overlay */}
@@ -20,7 +20,7 @@ const LandingPage = () => {
           {/* Hero Section */}
           <div className="relative z-10 text-white text-center max-w-3xl px-6">
             <motion.button
-              className="px-4 py-2  text-white text-4xl font-bold uppercase tracking-wide"
+              className="px-4 py-2 text-white text-4xl font-bold uppercase tracking-wide"
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
@@ -38,7 +38,7 @@ const LandingPage = () => {
             </motion.h1>
 
             <motion.p
-              className="text-lg mt-4"
+              className="text-lg mt-4 mb-8"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.7 }}
@@ -47,19 +47,29 @@ const LandingPage = () => {
             </motion.p>
 
             <motion.button
-              className="mt- flex items-center justify-around space-x-2 text-lg text-white hover:text-gray-300"
+              className="mt-4 flex items-center justify-center space-x-2 text-lg text-white hover:text-gray-300"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.9 }}
             >
               <span>▶ Watch the video</span>
-              
             </motion.button>
             
-            <div className="mt-9 w-40 h-10">
-              <Button text={"Join Us"}/>
-              </div>
-
+            {/* Button Container Modified */}
+            <motion.div 
+              className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 1.1 }}
+            >
+              <Link to="#" className="w-full sm:w-auto">
+                <Button text="Donate Relief" className="w-full sm:w-48 px-4 py-1" />
+              </Link>
+              <Link to="/report" className="w-full sm:w-auto">
+                <Button text="Report Disaster" className="w-full sm:w-48 px-4 py-1" />
+              </Link>
+             
+            </motion.div>
           </div>
         </div>
 
