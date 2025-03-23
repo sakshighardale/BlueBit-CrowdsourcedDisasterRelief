@@ -1,14 +1,16 @@
 import mongoose from "mongoose";
 
-const disasterSchema = new mongoose.Schema({
-  location: {
-    lat: { type: Number, required: true },
-    lng: { type: Number, required: true },
+const DisasterSchema = new mongoose.Schema(
+  {
+    location: { type: Object, required: true },
+    type: { type: String, required: true },
+    severity: { type: String, required: true },
+    description: { type: String },
+    state: { type: String, required: true }, // ✅ Ensure state is required
+    imageUrl: { type: String },
   },
-  type: { type: String, required: true },
-  severity: { type: String, required: true },
-  description: { type: String },
-  createdAt: { type: Date, default: Date.now },
-});
+  { timestamps: true }
+);
 
-export default mongoose.model("Disaster", disasterSchema);
+const Disaster = mongoose.model("Disaster", DisasterSchema);
+export default Disaster;
