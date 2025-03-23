@@ -2,16 +2,18 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import logo from "../assets/logo.png"; 
+import { FaUser } from "react-icons/fa";
 
 
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false); 
+    const [isLoggedIn] = useState(true);
 
 
     return (
         <motion.nav 
-            className="bg-sky-200 shadow-md"
+            className="bg-[#1995AD] shadow-md"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
@@ -19,16 +21,21 @@ const Navbar = () => {
 
 
             <div 
-            className="container mx-auto flex items-center justify-between p-2">
+            className="container mx-auto flex  items-center justify-between p-2">
                 {/* Left - Logo */}
-                <motion.div 
-                    className="flex items-center space-x-2"
+                <motion.div
+
+                    className="flex items-center justify-center space-x-2"
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5, delay: 0.2 }}
                 >
+                    
+                   
                     <img src={logo} alt="Helping Bridge Logo" className="h-10 rounded-2xl w-10" />
+                    <Link to="/">
                     <span className="text-xl font-bold text-gray-800">Helping Bridge</span>
+                    </Link>
                 </motion.div>
 
 
@@ -49,9 +56,31 @@ const Navbar = () => {
                     <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
                         <Link to="/about" className="text-gray-700 font-semibold hover:text-blue-600">About</Link>
                     </motion.li>
+
+{/* if logged in then show the faIcon for profile and if not logged in then show the join us Link to redirect to /join */}
                     <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-                        <Link to="/join" className="text-gray-700 font-semibold hover:text-blue-600">Join Us</Link>
+                        {
+                            // localStorage.getItem("token")
+                            // for now i will usestate to make it true that it is logged in
+                           isLoggedIn ? (
+                            <Link to="/profile" className="text-gray-700 font-semibold hover:text-blue-600">
+                                <motion.div 
+                                    className="flex items-center gap-2"
+                                    initial={{ opacity: 0, x: 20 }}
+                                    animate={{ opacity: 1, x: 0 }}
+                                    transition={{ duration: 0.5, delay: 0.8 }}
+                                >
+                                    <FaUser className="h-6 w-6 text-gray-800" />
+                                    <span className="text-sm font-semibold text-gray-800">Profile</span>
+                                </motion.div>
+                            </Link>
+                            ) : (
+                            <Link to="/login" className="text-gray-700 font-semibold hover:text-blue-600">Join Us</Link>
+                            )
+                        }
                     </motion.li>
+
+
                 </motion.ul>
 
                 {/* Right - Mobile Menu Button */}
@@ -105,7 +134,7 @@ const Navbar = () => {
                             <Link to="/about" className="block py-2 text-gray-700 hover:text-blue-600">About</Link>
                         </motion.li>
                         <motion.li whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                            <Link to="/join" className="block py-2 text-gray-700 hover:text-blue-600">Join Us</Link>
+                            <Link to="/login" className="block py-2 text-gray-700 hover:text-blue-600">Join Us</Link>
                         </motion.li>
                     </motion.ul>
                 )}

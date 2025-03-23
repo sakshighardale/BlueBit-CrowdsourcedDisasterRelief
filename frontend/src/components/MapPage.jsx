@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import Footer from "./Footer";
+import Button from "./Button";
+import { Link } from "react-router-dom";
+
 
 const API_URL = "http://localhost:5000/api/disasters/all"; // Update backend URL
 
@@ -109,7 +112,19 @@ const MapPage = () => {
         </div>
 
         {/* Right - List of Alerts */}
+
         <div className="w-full md:w-1/3 p-4 bg-gray-100 overflow-auto">
+        {/* link to report disaster */}
+        <Link
+          className="flex items-center gap-2" 
+           rel="noopener noreferrer"   // open in new tab or window
+     
+        to="/report">
+        <Button text="Report"
+           className=" text-white  w-20px" />
+           <Button text="Donate" //donate button not working properly
+           className="  text-white  w-20px"/>
+        </Link>
           <h2 className="text-xl font-bold mb-4">Disaster Alerts</h2>
 
           {/* Loading/Error Messages */}
