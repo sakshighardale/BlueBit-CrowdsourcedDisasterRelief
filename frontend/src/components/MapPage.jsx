@@ -13,12 +13,35 @@ const MapPage = () => {
 
   // List of Indian states
   const states = [
-    "Maharashtra", "Telangana", "Uttar Pradesh", "Delhi", "Gujarat", "Goa",
-    "Odisha", "Rajasthan", "Madhya Pradesh", "Bihar", "Assam", "Tamil Nadu",
-    "Chhattisgarh", "Kerala", "Andhra Pradesh", "Arunachal Pradesh", "Haryana",
-    "Himachal Pradesh", "Jharkhand", "Karnataka", "Manipur", "Meghalaya",
-    "Mizoram", "Nagaland", "Punjab", "Sikkim", "Tripura", "Uttarakhand",
-    "West Bengal"
+    "Maharashtra",
+    "Telangana",
+    "Uttar Pradesh",
+    "Delhi",
+    "Gujarat",
+    "Goa",
+    "Odisha",
+    "Rajasthan",
+    "Madhya Pradesh",
+    "Bihar",
+    "Assam",
+    "Tamil Nadu",
+    "Chhattisgarh",
+    "Kerala",
+    "Andhra Pradesh",
+    "Arunachal Pradesh",
+    "Haryana",
+    "Himachal Pradesh",
+    "Jharkhand",
+    "Karnataka",
+    "Manipur",
+    "Meghalaya",
+    "Mizoram",
+    "Nagaland",
+    "Punjab",
+    "Sikkim",
+    "Tripura",
+    "Uttarakhand",
+    "West Bengal",
   ];
 
   // Fetch disaster alerts from API
@@ -91,20 +114,31 @@ const MapPage = () => {
             className="h-full w-full"
           >
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            {disasterData.map((disaster) => (
-              <Marker
-                key={disaster._id}
-                position={[disaster.lat, disaster.lng]}
-              >
-                <Popup>
-                  <strong>{disaster.type}</strong>
-                  <p>{disaster.details}</p>
-                  <p className={`text-${disaster.severity === "high" ? "red" : "yellow"}-500 font-bold`}>
-                    {disaster.severity.toUpperCase()}
-                  </p>
-                </Popup>
-              </Marker>
-            ))}
+            {disasterData
+              .filter(
+                (disaster) =>
+                  disaster.location &&
+                  typeof disaster.location.lat === "number" &&
+                  typeof disaster.location.lng === "number"
+              )
+              .map((disaster) => (
+                <Marker
+                  key={disaster._id}
+                  position={[disaster.location.lat, disaster.location.lng]}
+                >
+                  <Popup>
+                    <strong>{disaster.type}</strong>
+                    <p>{disaster.description || "No description available"}</p>
+                    <p
+                      className={`text-${
+                        disaster.severity === "high" ? "red" : "yellow"
+                      }-500 font-bold`}
+                    >
+                      {disaster.severity.toUpperCase()}
+                    </p>
+                  </Popup>
+                </Marker>
+              ))}
           </MapContainer>
         </div>
 
@@ -125,7 +159,9 @@ const MapPage = () => {
                   className="p-4 rounded-lg shadow bg-white"
                 >
                   <h3 className="text-lg font-semibold">{disaster.type}</h3>
-                  <p className="text-sm text-gray-600">{disaster.details}</p>
+                  <p className="text-sm text-gray-600">
+                    {disaster.description || "No details provided"}
+                  </p>
                   <span
                     className={`px-2 py-1 text-xs font-semibold rounded ${
                       disaster.severity === "high"

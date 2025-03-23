@@ -14,21 +14,42 @@ const upload = multer({ storage });
 // Report a Disaster
 router.post("/report", upload.single("image"), async (req, res) => {
   try {
-    const { location, type, severity, description } = req.body;
+    const { location, type, severity, description, state } = req.body; // ✅ Added state
+
+    if (!state) {
+      return res.status(400).json({ error: "State field is required." });
+    }
+
+    // Ensure location is parsed correctly
+    let parsedLocation;
+    try {
+      parsedLocation =
+        typeof location === "string" ? JSON.parse(location) : location;
+    } catch (error) {
+      return res.status(400).json({ error: "Invalid location format" });
+    }
+
     const disaster = new Disaster({
-      location: JSON.parse(location),
+      location: parsedLocation,
       type,
       severity,
       description,
+      state, // ✅ Added state
       imageUrl: req.file ? `/uploads/${req.file.filename}` : null,
     });
+
     await disaster.save();
-    res.status(201).json({ message: "Disaster reported successfully" });
+    res
+      .status(201)
+      .json({ message: "Disaster reported successfully", disaster });
   } catch (error) {
-    res.status(500).json({ error: "Server Error" });
+    console.error(error);
+    res.status(500).json({ error: "Internal Server Error" });
   }
 });
-const getDisasters = async (req, res) => {
+
+// Get All Disasters
+router.get("/all", async (req, res) => {
   try {
     const disasters = await Disaster.find();
     res.status(200).json(disasters);
@@ -36,7 +57,6 @@ const getDisasters = async (req, res) => {
     console.error(error);
     res.status(500).json({ error: "Server Error" });
   }
-};
+});
 
-router.get("/all", getDisasters);
 export default router;
