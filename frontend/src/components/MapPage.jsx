@@ -3,13 +3,23 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import Footer from "./Footer";
 
-const API_URL = "http://localhost:5000/api/disasters/all"; // Update with your backend URL
+const API_URL = "http://localhost:5000/api/disasters/all"; // Update backend URL
 
 const MapPage = () => {
-  const [filter, setFilter] = useState("all"); // State filter
+  const [filter, setFilter] = useState("all"); // Default filter
   const [disasterData, setDisasterData] = useState([]); // Store API data
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+
+  // List of Indian states
+  const states = [
+    "Maharashtra", "Telangana", "Uttar Pradesh", "Delhi", "Gujarat", "Goa",
+    "Odisha", "Rajasthan", "Madhya Pradesh", "Bihar", "Assam", "Tamil Nadu",
+    "Chhattisgarh", "Kerala", "Andhra Pradesh", "Arunachal Pradesh", "Haryana",
+    "Himachal Pradesh", "Jharkhand", "Karnataka", "Manipur", "Meghalaya",
+    "Mizoram", "Nagaland", "Punjab", "Sikkim", "Tripura", "Uttarakhand",
+    "West Bengal"
+  ];
 
   // Fetch disaster alerts from API
   useEffect(() => {
@@ -27,7 +37,7 @@ const MapPage = () => {
             ? data
             : data.filter((disaster) => disaster.state === filter);
 
-        // Sort disasters based on state name (if needed)
+        // Sort disasters alphabetically by state
         filteredDisasters.sort((a, b) => a.state.localeCompare(b.state));
 
         setDisasterData(filteredDisasters);
@@ -43,19 +53,32 @@ const MapPage = () => {
 
   return (
     <>
-      {/* Filter Buttons */}
-      <div className="flex justify-center gap-4 bg-gray-100 p-4 shadow-md">
-        {["all", "Maharashtra", "Telangana", "Rajasthan"].map((state) => (
-          <button
-            key={state}
-            onClick={() => setFilter(state)}
-            className={`px-4 py-2 rounded-md ${
-              filter === state ? "bg-blue-500 text-white" : "bg-white border"
-            }`}
-          >
-            {state === "all" ? "All India" : state}
-          </button>
-        ))}
+      {/* Filter Bar */}
+      <div className="bg-gray-100 p-4 shadow-md flex gap-4 overflow-x-auto whitespace-nowrap">
+        {/* Fixed "All India" Button */}
+        <button
+          onClick={() => setFilter("all")}
+          className={`px-4 py-2 rounded-md flex-shrink-0 ${
+            filter === "all" ? "bg-blue-500 text-white" : "bg-white border"
+          }`}
+        >
+          All India
+        </button>
+
+        {/* Scrollable state buttons */}
+        <div className="flex gap-4">
+          {states.map((state) => (
+            <button
+              key={state}
+              onClick={() => setFilter(state)}
+              className={`px-4 py-2 rounded-md flex-shrink-0 ${
+                filter === state ? "bg-blue-500 text-white" : "bg-white border"
+              }`}
+            >
+              {state}
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Main Container */}
@@ -63,7 +86,7 @@ const MapPage = () => {
         {/* Left - Map */}
         <div className="w-full md:w-2/3 h-[500px] md:h-screen">
           <MapContainer
-            center={[22.9734, 78.6569]}
+            center={[22.9734, 78.6569]} // Centered at India
             zoom={5}
             className="h-full w-full"
           >
@@ -76,6 +99,9 @@ const MapPage = () => {
                 <Popup>
                   <strong>{disaster.type}</strong>
                   <p>{disaster.details}</p>
+                  <p className={`text-${disaster.severity === "high" ? "red" : "yellow"}-500 font-bold`}>
+                    {disaster.severity.toUpperCase()}
+                  </p>
                 </Popup>
               </Marker>
             ))}
@@ -87,8 +113,8 @@ const MapPage = () => {
           <h2 className="text-xl font-bold mb-4">Disaster Alerts</h2>
 
           {/* Loading/Error Messages */}
-          {loading ? <p className="text-gray-500">Loading...</p> : null}
-          {error ? <p className="text-red-500">{error}</p> : null}
+          {loading && <p className="text-gray-500">Loading...</p>}
+          {error && <p className="text-red-500">{error}</p>}
 
           {/* Display Disaster Alerts */}
           <div className="space-y-4">
