@@ -39,6 +39,7 @@ const Navbar = ({ className }) => {
                         <NavItem to="/" text="Home" />
                         <NavItem to="/map" text="Map" />
                         <NavItem to="/disasters" text="Disasters" />
+                        <NavItem to="/donations" text="Donations" />
                         <NavItem to="/about" text="About" />
                         <NavItem to="/guide" text="Guidlines" />
 
