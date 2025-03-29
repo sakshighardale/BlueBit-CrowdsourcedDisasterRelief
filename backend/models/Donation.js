@@ -6,6 +6,8 @@ const donationSchema = new mongoose.Schema({
   amount: { type: Number, required: true },
   paymentMethod: { type: String, required: true },
   date: { type: Date, default: Date.now },
+  typeDisaster: String,
+  comment: String,
 });
 
 const Donation = mongoose.model("Donation", donationSchema);

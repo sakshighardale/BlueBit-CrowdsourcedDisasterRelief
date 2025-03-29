@@ -5,7 +5,7 @@ import Footer from "./Footer";
 import Button from "./Button";
 import { Link } from "react-router-dom";
 
-const API_URL = "http://localhost:5000/api/disasters"; // Update backend URL
+const API_URL = "http://localhost:5000/api/disasters/all"; // Update backend URL
 
 const MapPage = () => {
   const [filter, setFilter] = useState("all"); // Default filter
