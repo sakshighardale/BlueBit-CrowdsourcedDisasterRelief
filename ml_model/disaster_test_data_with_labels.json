@@ -1,0 +1,8002 @@
+[
+    {
+        "urgency": 1,
+        "affected_population": 783,
+        "donation_amount": 13754,
+        "num_ngos": 6,
+        "num_volunteers": 412,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3577,
+        "donation_amount": 81627,
+        "num_ngos": 50,
+        "num_volunteers": 378,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2221,
+        "donation_amount": 68318,
+        "num_ngos": 46,
+        "num_volunteers": 369,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3826,
+        "donation_amount": 82560,
+        "num_ngos": 45,
+        "num_volunteers": 46,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1640,
+        "donation_amount": 62191,
+        "num_ngos": 23,
+        "num_volunteers": 283,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4769,
+        "donation_amount": 3543,
+        "num_ngos": 50,
+        "num_volunteers": 120,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3521,
+        "donation_amount": 96760,
+        "num_ngos": 38,
+        "num_volunteers": 322,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 984,
+        "donation_amount": 93195,
+        "num_ngos": 30,
+        "num_volunteers": 435,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4252,
+        "donation_amount": 80274,
+        "num_ngos": 42,
+        "num_volunteers": 480,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3564,
+        "donation_amount": 78995,
+        "num_ngos": 3,
+        "num_volunteers": 233,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 947,
+        "donation_amount": 9866,
+        "num_ngos": 8,
+        "num_volunteers": 376,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1143,
+        "donation_amount": 42480,
+        "num_ngos": 42,
+        "num_volunteers": 354,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3133,
+        "donation_amount": 86563,
+        "num_ngos": 18,
+        "num_volunteers": 434,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2669,
+        "donation_amount": 78972,
+        "num_ngos": 16,
+        "num_volunteers": 49,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2950,
+        "donation_amount": 92217,
+        "num_ngos": 34,
+        "num_volunteers": 190,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4449,
+        "donation_amount": 75062,
+        "num_ngos": 15,
+        "num_volunteers": 422,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3385,
+        "donation_amount": 97497,
+        "num_ngos": 4,
+        "num_volunteers": 474,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4349,
+        "donation_amount": 70711,
+        "num_ngos": 17,
+        "num_volunteers": 153,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2699,
+        "donation_amount": 57598,
+        "num_ngos": 32,
+        "num_volunteers": 272,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4482,
+        "donation_amount": 24254,
+        "num_ngos": 24,
+        "num_volunteers": 330,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 356,
+        "donation_amount": 47012,
+        "num_ngos": 48,
+        "num_volunteers": 93,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 366,
+        "donation_amount": 84985,
+        "num_ngos": 11,
+        "num_volunteers": 479,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 517,
+        "donation_amount": 35944,
+        "num_ngos": 4,
+        "num_volunteers": 196,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3276,
+        "donation_amount": 77818,
+        "num_ngos": 44,
+        "num_volunteers": 125,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1458,
+        "donation_amount": 93472,
+        "num_ngos": 34,
+        "num_volunteers": 367,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2373,
+        "donation_amount": 54269,
+        "num_ngos": 47,
+        "num_volunteers": 378,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1698,
+        "donation_amount": 70970,
+        "num_ngos": 18,
+        "num_volunteers": 107,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3382,
+        "donation_amount": 64851,
+        "num_ngos": 7,
+        "num_volunteers": 55,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2266,
+        "donation_amount": 75597,
+        "num_ngos": 4,
+        "num_volunteers": 95,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1203,
+        "donation_amount": 31508,
+        "num_ngos": 9,
+        "num_volunteers": 389,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4419,
+        "donation_amount": 35400,
+        "num_ngos": 28,
+        "num_volunteers": 436,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4032,
+        "donation_amount": 21488,
+        "num_ngos": 45,
+        "num_volunteers": 21,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3938,
+        "donation_amount": 58927,
+        "num_ngos": 8,
+        "num_volunteers": 477,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1624,
+        "donation_amount": 41254,
+        "num_ngos": 43,
+        "num_volunteers": 451,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1335,
+        "donation_amount": 9495,
+        "num_ngos": 12,
+        "num_volunteers": 489,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2881,
+        "donation_amount": 35583,
+        "num_ngos": 23,
+        "num_volunteers": 57,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 637,
+        "donation_amount": 63736,
+        "num_ngos": 45,
+        "num_volunteers": 37,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 752,
+        "donation_amount": 81909,
+        "num_ngos": 19,
+        "num_volunteers": 142,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1033,
+        "donation_amount": 91852,
+        "num_ngos": 33,
+        "num_volunteers": 51,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2547,
+        "donation_amount": 24613,
+        "num_ngos": 34,
+        "num_volunteers": 273,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3091,
+        "donation_amount": 60943,
+        "num_ngos": 39,
+        "num_volunteers": 470,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1245,
+        "donation_amount": 89913,
+        "num_ngos": 25,
+        "num_volunteers": 32,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 821,
+        "donation_amount": 81541,
+        "num_ngos": 8,
+        "num_volunteers": 198,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 615,
+        "donation_amount": 1534,
+        "num_ngos": 37,
+        "num_volunteers": 64,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 211,
+        "donation_amount": 83093,
+        "num_ngos": 4,
+        "num_volunteers": 80,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4015,
+        "donation_amount": 40611,
+        "num_ngos": 14,
+        "num_volunteers": 476,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 934,
+        "donation_amount": 60172,
+        "num_ngos": 42,
+        "num_volunteers": 136,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3897,
+        "donation_amount": 49164,
+        "num_ngos": 16,
+        "num_volunteers": 331,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3926,
+        "donation_amount": 15921,
+        "num_ngos": 2,
+        "num_volunteers": 33,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1722,
+        "donation_amount": 92988,
+        "num_ngos": 39,
+        "num_volunteers": 333,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 319,
+        "donation_amount": 75727,
+        "num_ngos": 30,
+        "num_volunteers": 157,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3934,
+        "donation_amount": 24315,
+        "num_ngos": 17,
+        "num_volunteers": 219,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1608,
+        "donation_amount": 96011,
+        "num_ngos": 23,
+        "num_volunteers": 97,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1615,
+        "donation_amount": 16327,
+        "num_ngos": 26,
+        "num_volunteers": 282,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4966,
+        "donation_amount": 86573,
+        "num_ngos": 10,
+        "num_volunteers": 157,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4822,
+        "donation_amount": 61720,
+        "num_ngos": 11,
+        "num_volunteers": 357,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 163,
+        "donation_amount": 55474,
+        "num_ngos": 15,
+        "num_volunteers": 100,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2725,
+        "donation_amount": 97148,
+        "num_ngos": 12,
+        "num_volunteers": 244,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2029,
+        "donation_amount": 22765,
+        "num_ngos": 2,
+        "num_volunteers": 428,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4982,
+        "donation_amount": 30880,
+        "num_ngos": 50,
+        "num_volunteers": 258,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 76,
+        "donation_amount": 77929,
+        "num_ngos": 42,
+        "num_volunteers": 326,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 617,
+        "donation_amount": 12407,
+        "num_ngos": 50,
+        "num_volunteers": 292,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1837,
+        "donation_amount": 50826,
+        "num_ngos": 44,
+        "num_volunteers": 79,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2487,
+        "donation_amount": 21418,
+        "num_ngos": 16,
+        "num_volunteers": 333,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 156,
+        "donation_amount": 3322,
+        "num_ngos": 10,
+        "num_volunteers": 50,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4752,
+        "donation_amount": 23073,
+        "num_ngos": 48,
+        "num_volunteers": 181,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3121,
+        "donation_amount": 20196,
+        "num_ngos": 33,
+        "num_volunteers": 368,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2169,
+        "donation_amount": 44695,
+        "num_ngos": 18,
+        "num_volunteers": 155,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1428,
+        "donation_amount": 92989,
+        "num_ngos": 40,
+        "num_volunteers": 297,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 248,
+        "donation_amount": 12871,
+        "num_ngos": 31,
+        "num_volunteers": 374,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1078,
+        "donation_amount": 45188,
+        "num_ngos": 25,
+        "num_volunteers": 199,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2578,
+        "donation_amount": 58686,
+        "num_ngos": 28,
+        "num_volunteers": 36,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2963,
+        "donation_amount": 71912,
+        "num_ngos": 43,
+        "num_volunteers": 346,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 643,
+        "donation_amount": 29570,
+        "num_ngos": 1,
+        "num_volunteers": 285,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 164,
+        "donation_amount": 60306,
+        "num_ngos": 10,
+        "num_volunteers": 200,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4327,
+        "donation_amount": 70383,
+        "num_ngos": 28,
+        "num_volunteers": 426,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3528,
+        "donation_amount": 29604,
+        "num_ngos": 44,
+        "num_volunteers": 309,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4444,
+        "donation_amount": 2689,
+        "num_ngos": 37,
+        "num_volunteers": 302,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2810,
+        "donation_amount": 38766,
+        "num_ngos": 42,
+        "num_volunteers": 264,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4547,
+        "donation_amount": 5249,
+        "num_ngos": 7,
+        "num_volunteers": 153,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2437,
+        "donation_amount": 10000,
+        "num_ngos": 7,
+        "num_volunteers": 189,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1612,
+        "donation_amount": 84257,
+        "num_ngos": 5,
+        "num_volunteers": 199,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 869,
+        "donation_amount": 71018,
+        "num_ngos": 9,
+        "num_volunteers": 212,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2635,
+        "donation_amount": 67999,
+        "num_ngos": 5,
+        "num_volunteers": 250,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1322,
+        "donation_amount": 97091,
+        "num_ngos": 28,
+        "num_volunteers": 433,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4851,
+        "donation_amount": 90836,
+        "num_ngos": 3,
+        "num_volunteers": 175,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2720,
+        "donation_amount": 68811,
+        "num_ngos": 42,
+        "num_volunteers": 497,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 501,
+        "donation_amount": 22164,
+        "num_ngos": 26,
+        "num_volunteers": 342,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3907,
+        "donation_amount": 73645,
+        "num_ngos": 46,
+        "num_volunteers": 148,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1613,
+        "donation_amount": 35198,
+        "num_ngos": 4,
+        "num_volunteers": 427,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2806,
+        "donation_amount": 71802,
+        "num_ngos": 19,
+        "num_volunteers": 275,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1722,
+        "donation_amount": 36485,
+        "num_ngos": 23,
+        "num_volunteers": 277,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1000,
+        "donation_amount": 51759,
+        "num_ngos": 1,
+        "num_volunteers": 125,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2400,
+        "donation_amount": 92670,
+        "num_ngos": 50,
+        "num_volunteers": 355,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2177,
+        "donation_amount": 57588,
+        "num_ngos": 14,
+        "num_volunteers": 233,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2350,
+        "donation_amount": 18351,
+        "num_ngos": 7,
+        "num_volunteers": 126,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2626,
+        "donation_amount": 55960,
+        "num_ngos": 40,
+        "num_volunteers": 160,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4243,
+        "donation_amount": 17941,
+        "num_ngos": 12,
+        "num_volunteers": 483,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2772,
+        "donation_amount": 39187,
+        "num_ngos": 46,
+        "num_volunteers": 92,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4645,
+        "donation_amount": 95066,
+        "num_ngos": 25,
+        "num_volunteers": 210,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1456,
+        "donation_amount": 3659,
+        "num_ngos": 18,
+        "num_volunteers": 161,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 105,
+        "donation_amount": 47586,
+        "num_ngos": 2,
+        "num_volunteers": 150,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3486,
+        "donation_amount": 3634,
+        "num_ngos": 10,
+        "num_volunteers": 109,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1673,
+        "donation_amount": 1784,
+        "num_ngos": 1,
+        "num_volunteers": 83,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1242,
+        "donation_amount": 57375,
+        "num_ngos": 38,
+        "num_volunteers": 156,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2388,
+        "donation_amount": 55826,
+        "num_ngos": 29,
+        "num_volunteers": 472,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4153,
+        "donation_amount": 14465,
+        "num_ngos": 41,
+        "num_volunteers": 44,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3736,
+        "donation_amount": 71372,
+        "num_ngos": 12,
+        "num_volunteers": 292,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1272,
+        "donation_amount": 25682,
+        "num_ngos": 21,
+        "num_volunteers": 22,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4583,
+        "donation_amount": 37895,
+        "num_ngos": 35,
+        "num_volunteers": 479,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 246,
+        "donation_amount": 17370,
+        "num_ngos": 10,
+        "num_volunteers": 277,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1574,
+        "donation_amount": 25086,
+        "num_ngos": 19,
+        "num_volunteers": 119,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4712,
+        "donation_amount": 82873,
+        "num_ngos": 15,
+        "num_volunteers": 174,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4156,
+        "donation_amount": 19992,
+        "num_ngos": 25,
+        "num_volunteers": 216,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2573,
+        "donation_amount": 15816,
+        "num_ngos": 13,
+        "num_volunteers": 248,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 144,
+        "donation_amount": 49750,
+        "num_ngos": 1,
+        "num_volunteers": 133,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 548,
+        "donation_amount": 12956,
+        "num_ngos": 6,
+        "num_volunteers": 459,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2534,
+        "donation_amount": 41628,
+        "num_ngos": 39,
+        "num_volunteers": 298,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 456,
+        "donation_amount": 78306,
+        "num_ngos": 12,
+        "num_volunteers": 79,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1460,
+        "donation_amount": 25924,
+        "num_ngos": 38,
+        "num_volunteers": 459,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2198,
+        "donation_amount": 87984,
+        "num_ngos": 2,
+        "num_volunteers": 168,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 205,
+        "donation_amount": 75763,
+        "num_ngos": 50,
+        "num_volunteers": 477,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 366,
+        "donation_amount": 96300,
+        "num_ngos": 17,
+        "num_volunteers": 363,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3541,
+        "donation_amount": 11400,
+        "num_ngos": 20,
+        "num_volunteers": 257,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2670,
+        "donation_amount": 51941,
+        "num_ngos": 26,
+        "num_volunteers": 451,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4342,
+        "donation_amount": 65088,
+        "num_ngos": 48,
+        "num_volunteers": 66,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3949,
+        "donation_amount": 56534,
+        "num_ngos": 39,
+        "num_volunteers": 243,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 372,
+        "donation_amount": 62547,
+        "num_ngos": 22,
+        "num_volunteers": 447,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 802,
+        "donation_amount": 99711,
+        "num_ngos": 32,
+        "num_volunteers": 74,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4240,
+        "donation_amount": 42034,
+        "num_ngos": 26,
+        "num_volunteers": 160,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1434,
+        "donation_amount": 69713,
+        "num_ngos": 46,
+        "num_volunteers": 47,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3744,
+        "donation_amount": 53618,
+        "num_ngos": 3,
+        "num_volunteers": 375,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3572,
+        "donation_amount": 11287,
+        "num_ngos": 1,
+        "num_volunteers": 342,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2124,
+        "donation_amount": 1153,
+        "num_ngos": 11,
+        "num_volunteers": 464,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2640,
+        "donation_amount": 78288,
+        "num_ngos": 25,
+        "num_volunteers": 280,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3926,
+        "donation_amount": 28303,
+        "num_ngos": 22,
+        "num_volunteers": 458,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1336,
+        "donation_amount": 63023,
+        "num_ngos": 2,
+        "num_volunteers": 212,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 529,
+        "donation_amount": 47474,
+        "num_ngos": 6,
+        "num_volunteers": 286,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1134,
+        "donation_amount": 24547,
+        "num_ngos": 22,
+        "num_volunteers": 312,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 505,
+        "donation_amount": 83242,
+        "num_ngos": 36,
+        "num_volunteers": 315,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4208,
+        "donation_amount": 3252,
+        "num_ngos": 39,
+        "num_volunteers": 474,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2049,
+        "donation_amount": 46493,
+        "num_ngos": 45,
+        "num_volunteers": 283,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 724,
+        "donation_amount": 57618,
+        "num_ngos": 42,
+        "num_volunteers": 64,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4051,
+        "donation_amount": 94071,
+        "num_ngos": 29,
+        "num_volunteers": 414,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3960,
+        "donation_amount": 62183,
+        "num_ngos": 48,
+        "num_volunteers": 346,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1497,
+        "donation_amount": 89320,
+        "num_ngos": 12,
+        "num_volunteers": 23,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2250,
+        "donation_amount": 48710,
+        "num_ngos": 3,
+        "num_volunteers": 99,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4317,
+        "donation_amount": 85137,
+        "num_ngos": 22,
+        "num_volunteers": 229,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1849,
+        "donation_amount": 49625,
+        "num_ngos": 19,
+        "num_volunteers": 276,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2052,
+        "donation_amount": 81216,
+        "num_ngos": 38,
+        "num_volunteers": 453,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1298,
+        "donation_amount": 81451,
+        "num_ngos": 35,
+        "num_volunteers": 196,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4544,
+        "donation_amount": 57955,
+        "num_ngos": 11,
+        "num_volunteers": 182,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1408,
+        "donation_amount": 94696,
+        "num_ngos": 49,
+        "num_volunteers": 245,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2402,
+        "donation_amount": 63425,
+        "num_ngos": 27,
+        "num_volunteers": 470,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3487,
+        "donation_amount": 99448,
+        "num_ngos": 6,
+        "num_volunteers": 164,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 314,
+        "donation_amount": 35588,
+        "num_ngos": 18,
+        "num_volunteers": 119,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 408,
+        "donation_amount": 68817,
+        "num_ngos": 45,
+        "num_volunteers": 53,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4765,
+        "donation_amount": 36552,
+        "num_ngos": 18,
+        "num_volunteers": 82,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3091,
+        "donation_amount": 5026,
+        "num_ngos": 25,
+        "num_volunteers": 460,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2217,
+        "donation_amount": 85002,
+        "num_ngos": 39,
+        "num_volunteers": 328,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3752,
+        "donation_amount": 55955,
+        "num_ngos": 38,
+        "num_volunteers": 197,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4444,
+        "donation_amount": 15286,
+        "num_ngos": 50,
+        "num_volunteers": 476,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 545,
+        "donation_amount": 23886,
+        "num_ngos": 42,
+        "num_volunteers": 419,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 516,
+        "donation_amount": 84511,
+        "num_ngos": 21,
+        "num_volunteers": 494,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2730,
+        "donation_amount": 83638,
+        "num_ngos": 12,
+        "num_volunteers": 140,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1681,
+        "donation_amount": 14302,
+        "num_ngos": 19,
+        "num_volunteers": 381,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2237,
+        "donation_amount": 2464,
+        "num_ngos": 24,
+        "num_volunteers": 358,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1449,
+        "donation_amount": 39959,
+        "num_ngos": 40,
+        "num_volunteers": 500,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4692,
+        "donation_amount": 61326,
+        "num_ngos": 19,
+        "num_volunteers": 414,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4880,
+        "donation_amount": 80407,
+        "num_ngos": 1,
+        "num_volunteers": 371,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3103,
+        "donation_amount": 26622,
+        "num_ngos": 40,
+        "num_volunteers": 285,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2255,
+        "donation_amount": 14790,
+        "num_ngos": 2,
+        "num_volunteers": 423,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2936,
+        "donation_amount": 97983,
+        "num_ngos": 16,
+        "num_volunteers": 141,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1466,
+        "donation_amount": 9327,
+        "num_ngos": 43,
+        "num_volunteers": 348,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4343,
+        "donation_amount": 99704,
+        "num_ngos": 9,
+        "num_volunteers": 37,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1000,
+        "donation_amount": 64659,
+        "num_ngos": 42,
+        "num_volunteers": 192,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3852,
+        "donation_amount": 28171,
+        "num_ngos": 32,
+        "num_volunteers": 77,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2080,
+        "donation_amount": 85041,
+        "num_ngos": 14,
+        "num_volunteers": 198,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2603,
+        "donation_amount": 64204,
+        "num_ngos": 13,
+        "num_volunteers": 11,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2443,
+        "donation_amount": 16369,
+        "num_ngos": 31,
+        "num_volunteers": 140,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2189,
+        "donation_amount": 81413,
+        "num_ngos": 11,
+        "num_volunteers": 57,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3010,
+        "donation_amount": 66671,
+        "num_ngos": 19,
+        "num_volunteers": 375,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4950,
+        "donation_amount": 74840,
+        "num_ngos": 26,
+        "num_volunteers": 419,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3551,
+        "donation_amount": 90080,
+        "num_ngos": 39,
+        "num_volunteers": 420,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3319,
+        "donation_amount": 15201,
+        "num_ngos": 36,
+        "num_volunteers": 387,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2880,
+        "donation_amount": 42924,
+        "num_ngos": 28,
+        "num_volunteers": 53,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3132,
+        "donation_amount": 58033,
+        "num_ngos": 16,
+        "num_volunteers": 244,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 887,
+        "donation_amount": 22649,
+        "num_ngos": 34,
+        "num_volunteers": 201,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4513,
+        "donation_amount": 93221,
+        "num_ngos": 48,
+        "num_volunteers": 299,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2302,
+        "donation_amount": 80290,
+        "num_ngos": 13,
+        "num_volunteers": 499,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4888,
+        "donation_amount": 23733,
+        "num_ngos": 25,
+        "num_volunteers": 220,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1361,
+        "donation_amount": 81109,
+        "num_ngos": 42,
+        "num_volunteers": 376,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2197,
+        "donation_amount": 75905,
+        "num_ngos": 41,
+        "num_volunteers": 411,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2115,
+        "donation_amount": 51763,
+        "num_ngos": 12,
+        "num_volunteers": 398,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3054,
+        "donation_amount": 7789,
+        "num_ngos": 25,
+        "num_volunteers": 244,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1819,
+        "donation_amount": 80908,
+        "num_ngos": 8,
+        "num_volunteers": 494,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3851,
+        "donation_amount": 90229,
+        "num_ngos": 7,
+        "num_volunteers": 192,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2559,
+        "donation_amount": 27697,
+        "num_ngos": 36,
+        "num_volunteers": 178,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1093,
+        "donation_amount": 775,
+        "num_ngos": 5,
+        "num_volunteers": 265,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1512,
+        "donation_amount": 27166,
+        "num_ngos": 36,
+        "num_volunteers": 462,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4654,
+        "donation_amount": 50159,
+        "num_ngos": 49,
+        "num_volunteers": 216,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1257,
+        "donation_amount": 63947,
+        "num_ngos": 43,
+        "num_volunteers": 66,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1374,
+        "donation_amount": 74485,
+        "num_ngos": 38,
+        "num_volunteers": 465,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1998,
+        "donation_amount": 98716,
+        "num_ngos": 32,
+        "num_volunteers": 359,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1360,
+        "donation_amount": 35939,
+        "num_ngos": 29,
+        "num_volunteers": 30,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1194,
+        "donation_amount": 69673,
+        "num_ngos": 39,
+        "num_volunteers": 464,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3575,
+        "donation_amount": 80451,
+        "num_ngos": 26,
+        "num_volunteers": 131,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 613,
+        "donation_amount": 44505,
+        "num_ngos": 29,
+        "num_volunteers": 84,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1849,
+        "donation_amount": 24505,
+        "num_ngos": 42,
+        "num_volunteers": 183,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1390,
+        "donation_amount": 52328,
+        "num_ngos": 18,
+        "num_volunteers": 32,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 942,
+        "donation_amount": 66567,
+        "num_ngos": 9,
+        "num_volunteers": 128,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2550,
+        "donation_amount": 93072,
+        "num_ngos": 27,
+        "num_volunteers": 95,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4541,
+        "donation_amount": 95069,
+        "num_ngos": 7,
+        "num_volunteers": 389,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 517,
+        "donation_amount": 80092,
+        "num_ngos": 19,
+        "num_volunteers": 464,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 326,
+        "donation_amount": 34420,
+        "num_ngos": 30,
+        "num_volunteers": 305,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3626,
+        "donation_amount": 16067,
+        "num_ngos": 6,
+        "num_volunteers": 236,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2615,
+        "donation_amount": 81704,
+        "num_ngos": 2,
+        "num_volunteers": 166,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4824,
+        "donation_amount": 33735,
+        "num_ngos": 2,
+        "num_volunteers": 155,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1798,
+        "donation_amount": 97822,
+        "num_ngos": 2,
+        "num_volunteers": 180,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 980,
+        "donation_amount": 5551,
+        "num_ngos": 17,
+        "num_volunteers": 144,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3523,
+        "donation_amount": 23247,
+        "num_ngos": 44,
+        "num_volunteers": 239,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4131,
+        "donation_amount": 67016,
+        "num_ngos": 41,
+        "num_volunteers": 392,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 594,
+        "donation_amount": 9490,
+        "num_ngos": 25,
+        "num_volunteers": 106,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2031,
+        "donation_amount": 8636,
+        "num_ngos": 21,
+        "num_volunteers": 27,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3640,
+        "donation_amount": 84329,
+        "num_ngos": 23,
+        "num_volunteers": 319,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4629,
+        "donation_amount": 2773,
+        "num_ngos": 18,
+        "num_volunteers": 209,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2024,
+        "donation_amount": 23610,
+        "num_ngos": 39,
+        "num_volunteers": 261,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 95,
+        "donation_amount": 81751,
+        "num_ngos": 3,
+        "num_volunteers": 472,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 581,
+        "donation_amount": 67680,
+        "num_ngos": 9,
+        "num_volunteers": 131,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3276,
+        "donation_amount": 84540,
+        "num_ngos": 42,
+        "num_volunteers": 374,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2158,
+        "donation_amount": 42716,
+        "num_ngos": 19,
+        "num_volunteers": 323,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4022,
+        "donation_amount": 38497,
+        "num_ngos": 25,
+        "num_volunteers": 245,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4168,
+        "donation_amount": 65176,
+        "num_ngos": 50,
+        "num_volunteers": 169,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4969,
+        "donation_amount": 89266,
+        "num_ngos": 41,
+        "num_volunteers": 278,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2269,
+        "donation_amount": 46488,
+        "num_ngos": 28,
+        "num_volunteers": 231,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1102,
+        "donation_amount": 95630,
+        "num_ngos": 2,
+        "num_volunteers": 303,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2678,
+        "donation_amount": 41434,
+        "num_ngos": 26,
+        "num_volunteers": 416,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 532,
+        "donation_amount": 54781,
+        "num_ngos": 19,
+        "num_volunteers": 150,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 107,
+        "donation_amount": 95584,
+        "num_ngos": 33,
+        "num_volunteers": 95,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1213,
+        "donation_amount": 72699,
+        "num_ngos": 21,
+        "num_volunteers": 226,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 377,
+        "donation_amount": 60099,
+        "num_ngos": 44,
+        "num_volunteers": 275,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 560,
+        "donation_amount": 4905,
+        "num_ngos": 14,
+        "num_volunteers": 321,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2928,
+        "donation_amount": 56524,
+        "num_ngos": 20,
+        "num_volunteers": 142,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 748,
+        "donation_amount": 37918,
+        "num_ngos": 49,
+        "num_volunteers": 183,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4844,
+        "donation_amount": 39849,
+        "num_ngos": 17,
+        "num_volunteers": 442,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2393,
+        "donation_amount": 59382,
+        "num_ngos": 40,
+        "num_volunteers": 183,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 700,
+        "donation_amount": 60990,
+        "num_ngos": 9,
+        "num_volunteers": 287,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4568,
+        "donation_amount": 76705,
+        "num_ngos": 35,
+        "num_volunteers": 67,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 695,
+        "donation_amount": 41563,
+        "num_ngos": 25,
+        "num_volunteers": 421,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1160,
+        "donation_amount": 43118,
+        "num_ngos": 12,
+        "num_volunteers": 128,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4378,
+        "donation_amount": 81635,
+        "num_ngos": 6,
+        "num_volunteers": 116,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2152,
+        "donation_amount": 6854,
+        "num_ngos": 14,
+        "num_volunteers": 235,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2482,
+        "donation_amount": 38582,
+        "num_ngos": 18,
+        "num_volunteers": 491,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 797,
+        "donation_amount": 78403,
+        "num_ngos": 2,
+        "num_volunteers": 170,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3272,
+        "donation_amount": 64747,
+        "num_ngos": 47,
+        "num_volunteers": 402,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2559,
+        "donation_amount": 47094,
+        "num_ngos": 20,
+        "num_volunteers": 217,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1323,
+        "donation_amount": 60517,
+        "num_ngos": 30,
+        "num_volunteers": 109,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2779,
+        "donation_amount": 93419,
+        "num_ngos": 18,
+        "num_volunteers": 169,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4982,
+        "donation_amount": 42910,
+        "num_ngos": 10,
+        "num_volunteers": 125,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4541,
+        "donation_amount": 53231,
+        "num_ngos": 28,
+        "num_volunteers": 230,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4782,
+        "donation_amount": 17676,
+        "num_ngos": 26,
+        "num_volunteers": 249,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1147,
+        "donation_amount": 9070,
+        "num_ngos": 5,
+        "num_volunteers": 48,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1046,
+        "donation_amount": 14105,
+        "num_ngos": 37,
+        "num_volunteers": 23,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2297,
+        "donation_amount": 38391,
+        "num_ngos": 47,
+        "num_volunteers": 288,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3508,
+        "donation_amount": 39982,
+        "num_ngos": 39,
+        "num_volunteers": 279,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3375,
+        "donation_amount": 74695,
+        "num_ngos": 14,
+        "num_volunteers": 354,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2985,
+        "donation_amount": 76679,
+        "num_ngos": 42,
+        "num_volunteers": 74,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2768,
+        "donation_amount": 88947,
+        "num_ngos": 47,
+        "num_volunteers": 393,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 319,
+        "donation_amount": 13430,
+        "num_ngos": 18,
+        "num_volunteers": 330,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1367,
+        "donation_amount": 82931,
+        "num_ngos": 28,
+        "num_volunteers": 345,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2286,
+        "donation_amount": 13220,
+        "num_ngos": 26,
+        "num_volunteers": 266,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1753,
+        "donation_amount": 72401,
+        "num_ngos": 25,
+        "num_volunteers": 82,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2577,
+        "donation_amount": 62129,
+        "num_ngos": 13,
+        "num_volunteers": 112,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2590,
+        "donation_amount": 74374,
+        "num_ngos": 26,
+        "num_volunteers": 153,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4045,
+        "donation_amount": 33558,
+        "num_ngos": 11,
+        "num_volunteers": 450,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2333,
+        "donation_amount": 64005,
+        "num_ngos": 4,
+        "num_volunteers": 26,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4097,
+        "donation_amount": 91096,
+        "num_ngos": 35,
+        "num_volunteers": 283,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 234,
+        "donation_amount": 61133,
+        "num_ngos": 17,
+        "num_volunteers": 334,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 383,
+        "donation_amount": 95125,
+        "num_ngos": 27,
+        "num_volunteers": 330,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3198,
+        "donation_amount": 83903,
+        "num_ngos": 3,
+        "num_volunteers": 423,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4349,
+        "donation_amount": 48278,
+        "num_ngos": 28,
+        "num_volunteers": 273,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4582,
+        "donation_amount": 76789,
+        "num_ngos": 9,
+        "num_volunteers": 337,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3996,
+        "donation_amount": 89331,
+        "num_ngos": 11,
+        "num_volunteers": 102,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4943,
+        "donation_amount": 69711,
+        "num_ngos": 12,
+        "num_volunteers": 368,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4237,
+        "donation_amount": 53251,
+        "num_ngos": 25,
+        "num_volunteers": 202,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 443,
+        "donation_amount": 99469,
+        "num_ngos": 24,
+        "num_volunteers": 493,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4099,
+        "donation_amount": 75894,
+        "num_ngos": 6,
+        "num_volunteers": 264,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3498,
+        "donation_amount": 95253,
+        "num_ngos": 11,
+        "num_volunteers": 431,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3040,
+        "donation_amount": 51954,
+        "num_ngos": 15,
+        "num_volunteers": 203,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1591,
+        "donation_amount": 67356,
+        "num_ngos": 33,
+        "num_volunteers": 485,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3516,
+        "donation_amount": 59072,
+        "num_ngos": 3,
+        "num_volunteers": 54,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 324,
+        "donation_amount": 93099,
+        "num_ngos": 10,
+        "num_volunteers": 399,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4831,
+        "donation_amount": 4264,
+        "num_ngos": 47,
+        "num_volunteers": 69,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4017,
+        "donation_amount": 2672,
+        "num_ngos": 19,
+        "num_volunteers": 176,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1868,
+        "donation_amount": 27727,
+        "num_ngos": 30,
+        "num_volunteers": 224,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3215,
+        "donation_amount": 19587,
+        "num_ngos": 15,
+        "num_volunteers": 477,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2462,
+        "donation_amount": 88255,
+        "num_ngos": 24,
+        "num_volunteers": 418,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 833,
+        "donation_amount": 63108,
+        "num_ngos": 46,
+        "num_volunteers": 308,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4487,
+        "donation_amount": 69248,
+        "num_ngos": 41,
+        "num_volunteers": 467,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1774,
+        "donation_amount": 49560,
+        "num_ngos": 18,
+        "num_volunteers": 44,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3207,
+        "donation_amount": 19320,
+        "num_ngos": 31,
+        "num_volunteers": 72,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2073,
+        "donation_amount": 81495,
+        "num_ngos": 27,
+        "num_volunteers": 86,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3623,
+        "donation_amount": 77337,
+        "num_ngos": 22,
+        "num_volunteers": 301,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 266,
+        "donation_amount": 24506,
+        "num_ngos": 3,
+        "num_volunteers": 270,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3134,
+        "donation_amount": 94053,
+        "num_ngos": 28,
+        "num_volunteers": 15,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 537,
+        "donation_amount": 8287,
+        "num_ngos": 23,
+        "num_volunteers": 438,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1758,
+        "donation_amount": 13054,
+        "num_ngos": 40,
+        "num_volunteers": 459,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2433,
+        "donation_amount": 9504,
+        "num_ngos": 22,
+        "num_volunteers": 497,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3127,
+        "donation_amount": 25004,
+        "num_ngos": 38,
+        "num_volunteers": 184,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2290,
+        "donation_amount": 81654,
+        "num_ngos": 23,
+        "num_volunteers": 228,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 232,
+        "donation_amount": 11816,
+        "num_ngos": 8,
+        "num_volunteers": 426,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1885,
+        "donation_amount": 51867,
+        "num_ngos": 36,
+        "num_volunteers": 134,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2416,
+        "donation_amount": 95851,
+        "num_ngos": 20,
+        "num_volunteers": 395,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2032,
+        "donation_amount": 10305,
+        "num_ngos": 47,
+        "num_volunteers": 307,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3465,
+        "donation_amount": 61059,
+        "num_ngos": 22,
+        "num_volunteers": 492,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2738,
+        "donation_amount": 38340,
+        "num_ngos": 36,
+        "num_volunteers": 408,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1897,
+        "donation_amount": 54964,
+        "num_ngos": 26,
+        "num_volunteers": 330,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3830,
+        "donation_amount": 95377,
+        "num_ngos": 21,
+        "num_volunteers": 106,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3383,
+        "donation_amount": 23181,
+        "num_ngos": 7,
+        "num_volunteers": 271,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1385,
+        "donation_amount": 4187,
+        "num_ngos": 46,
+        "num_volunteers": 158,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4960,
+        "donation_amount": 25463,
+        "num_ngos": 26,
+        "num_volunteers": 106,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 249,
+        "donation_amount": 56458,
+        "num_ngos": 30,
+        "num_volunteers": 235,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1837,
+        "donation_amount": 95340,
+        "num_ngos": 50,
+        "num_volunteers": 499,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2374,
+        "donation_amount": 29313,
+        "num_ngos": 49,
+        "num_volunteers": 251,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4731,
+        "donation_amount": 90635,
+        "num_ngos": 8,
+        "num_volunteers": 346,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3391,
+        "donation_amount": 61269,
+        "num_ngos": 5,
+        "num_volunteers": 172,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 535,
+        "donation_amount": 4705,
+        "num_ngos": 13,
+        "num_volunteers": 350,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1264,
+        "donation_amount": 2265,
+        "num_ngos": 5,
+        "num_volunteers": 113,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2346,
+        "donation_amount": 32968,
+        "num_ngos": 10,
+        "num_volunteers": 354,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4209,
+        "donation_amount": 16386,
+        "num_ngos": 34,
+        "num_volunteers": 398,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3053,
+        "donation_amount": 24339,
+        "num_ngos": 3,
+        "num_volunteers": 15,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3664,
+        "donation_amount": 35233,
+        "num_ngos": 43,
+        "num_volunteers": 289,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4879,
+        "donation_amount": 57917,
+        "num_ngos": 20,
+        "num_volunteers": 334,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4277,
+        "donation_amount": 30960,
+        "num_ngos": 30,
+        "num_volunteers": 31,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 86,
+        "donation_amount": 49293,
+        "num_ngos": 43,
+        "num_volunteers": 221,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3873,
+        "donation_amount": 82834,
+        "num_ngos": 13,
+        "num_volunteers": 58,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 414,
+        "donation_amount": 34806,
+        "num_ngos": 7,
+        "num_volunteers": 189,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4950,
+        "donation_amount": 3681,
+        "num_ngos": 4,
+        "num_volunteers": 114,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1162,
+        "donation_amount": 96220,
+        "num_ngos": 44,
+        "num_volunteers": 38,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2486,
+        "donation_amount": 75887,
+        "num_ngos": 42,
+        "num_volunteers": 20,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1082,
+        "donation_amount": 93264,
+        "num_ngos": 4,
+        "num_volunteers": 46,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2469,
+        "donation_amount": 67574,
+        "num_ngos": 31,
+        "num_volunteers": 50,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 339,
+        "donation_amount": 72588,
+        "num_ngos": 49,
+        "num_volunteers": 437,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4657,
+        "donation_amount": 91459,
+        "num_ngos": 14,
+        "num_volunteers": 325,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1505,
+        "donation_amount": 67057,
+        "num_ngos": 12,
+        "num_volunteers": 271,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3720,
+        "donation_amount": 75695,
+        "num_ngos": 30,
+        "num_volunteers": 491,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2396,
+        "donation_amount": 9025,
+        "num_ngos": 12,
+        "num_volunteers": 328,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1004,
+        "donation_amount": 98495,
+        "num_ngos": 23,
+        "num_volunteers": 178,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2701,
+        "donation_amount": 6226,
+        "num_ngos": 22,
+        "num_volunteers": 130,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 594,
+        "donation_amount": 14105,
+        "num_ngos": 1,
+        "num_volunteers": 474,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2499,
+        "donation_amount": 24349,
+        "num_ngos": 40,
+        "num_volunteers": 117,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1834,
+        "donation_amount": 88023,
+        "num_ngos": 28,
+        "num_volunteers": 56,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 306,
+        "donation_amount": 33598,
+        "num_ngos": 27,
+        "num_volunteers": 319,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1911,
+        "donation_amount": 11764,
+        "num_ngos": 10,
+        "num_volunteers": 259,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4536,
+        "donation_amount": 19897,
+        "num_ngos": 7,
+        "num_volunteers": 467,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3614,
+        "donation_amount": 40274,
+        "num_ngos": 30,
+        "num_volunteers": 104,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1410,
+        "donation_amount": 15494,
+        "num_ngos": 50,
+        "num_volunteers": 425,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 225,
+        "donation_amount": 19895,
+        "num_ngos": 24,
+        "num_volunteers": 194,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4506,
+        "donation_amount": 21589,
+        "num_ngos": 37,
+        "num_volunteers": 494,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 509,
+        "donation_amount": 95017,
+        "num_ngos": 15,
+        "num_volunteers": 477,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4706,
+        "donation_amount": 53403,
+        "num_ngos": 36,
+        "num_volunteers": 35,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1160,
+        "donation_amount": 52542,
+        "num_ngos": 16,
+        "num_volunteers": 22,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1421,
+        "donation_amount": 77383,
+        "num_ngos": 27,
+        "num_volunteers": 387,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 637,
+        "donation_amount": 51594,
+        "num_ngos": 32,
+        "num_volunteers": 85,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2416,
+        "donation_amount": 35909,
+        "num_ngos": 10,
+        "num_volunteers": 387,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3583,
+        "donation_amount": 18068,
+        "num_ngos": 11,
+        "num_volunteers": 182,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1488,
+        "donation_amount": 35413,
+        "num_ngos": 4,
+        "num_volunteers": 320,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4454,
+        "donation_amount": 87822,
+        "num_ngos": 16,
+        "num_volunteers": 387,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 102,
+        "donation_amount": 56272,
+        "num_ngos": 15,
+        "num_volunteers": 375,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 549,
+        "donation_amount": 69202,
+        "num_ngos": 3,
+        "num_volunteers": 475,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3076,
+        "donation_amount": 86144,
+        "num_ngos": 36,
+        "num_volunteers": 188,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 101,
+        "donation_amount": 4939,
+        "num_ngos": 45,
+        "num_volunteers": 153,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1592,
+        "donation_amount": 56620,
+        "num_ngos": 45,
+        "num_volunteers": 224,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1439,
+        "donation_amount": 1080,
+        "num_ngos": 6,
+        "num_volunteers": 486,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1469,
+        "donation_amount": 72154,
+        "num_ngos": 7,
+        "num_volunteers": 189,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2040,
+        "donation_amount": 81799,
+        "num_ngos": 47,
+        "num_volunteers": 338,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2396,
+        "donation_amount": 76420,
+        "num_ngos": 28,
+        "num_volunteers": 326,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 757,
+        "donation_amount": 3960,
+        "num_ngos": 29,
+        "num_volunteers": 80,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 820,
+        "donation_amount": 63550,
+        "num_ngos": 5,
+        "num_volunteers": 480,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3165,
+        "donation_amount": 10247,
+        "num_ngos": 45,
+        "num_volunteers": 211,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3158,
+        "donation_amount": 2832,
+        "num_ngos": 8,
+        "num_volunteers": 496,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1207,
+        "donation_amount": 70484,
+        "num_ngos": 2,
+        "num_volunteers": 329,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3981,
+        "donation_amount": 1274,
+        "num_ngos": 15,
+        "num_volunteers": 285,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4014,
+        "donation_amount": 93734,
+        "num_ngos": 39,
+        "num_volunteers": 185,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 434,
+        "donation_amount": 15289,
+        "num_ngos": 24,
+        "num_volunteers": 63,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1538,
+        "donation_amount": 58364,
+        "num_ngos": 31,
+        "num_volunteers": 347,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1741,
+        "donation_amount": 6282,
+        "num_ngos": 19,
+        "num_volunteers": 369,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1645,
+        "donation_amount": 43328,
+        "num_ngos": 5,
+        "num_volunteers": 379,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1733,
+        "donation_amount": 9975,
+        "num_ngos": 29,
+        "num_volunteers": 336,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2697,
+        "donation_amount": 93323,
+        "num_ngos": 4,
+        "num_volunteers": 156,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4163,
+        "donation_amount": 51221,
+        "num_ngos": 42,
+        "num_volunteers": 491,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2079,
+        "donation_amount": 38262,
+        "num_ngos": 7,
+        "num_volunteers": 11,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4652,
+        "donation_amount": 31657,
+        "num_ngos": 39,
+        "num_volunteers": 60,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4016,
+        "donation_amount": 98653,
+        "num_ngos": 16,
+        "num_volunteers": 44,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2025,
+        "donation_amount": 95213,
+        "num_ngos": 13,
+        "num_volunteers": 490,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4290,
+        "donation_amount": 98524,
+        "num_ngos": 45,
+        "num_volunteers": 158,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 474,
+        "donation_amount": 63296,
+        "num_ngos": 37,
+        "num_volunteers": 233,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 777,
+        "donation_amount": 95502,
+        "num_ngos": 47,
+        "num_volunteers": 218,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3689,
+        "donation_amount": 27133,
+        "num_ngos": 45,
+        "num_volunteers": 477,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3732,
+        "donation_amount": 50382,
+        "num_ngos": 40,
+        "num_volunteers": 470,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2998,
+        "donation_amount": 57084,
+        "num_ngos": 28,
+        "num_volunteers": 465,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3907,
+        "donation_amount": 3451,
+        "num_ngos": 47,
+        "num_volunteers": 477,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4077,
+        "donation_amount": 33115,
+        "num_ngos": 43,
+        "num_volunteers": 69,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1642,
+        "donation_amount": 5437,
+        "num_ngos": 38,
+        "num_volunteers": 123,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 677,
+        "donation_amount": 11130,
+        "num_ngos": 48,
+        "num_volunteers": 493,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 378,
+        "donation_amount": 80257,
+        "num_ngos": 35,
+        "num_volunteers": 235,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1898,
+        "donation_amount": 7010,
+        "num_ngos": 43,
+        "num_volunteers": 248,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1578,
+        "donation_amount": 45483,
+        "num_ngos": 49,
+        "num_volunteers": 39,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2477,
+        "donation_amount": 38312,
+        "num_ngos": 31,
+        "num_volunteers": 317,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4581,
+        "donation_amount": 67928,
+        "num_ngos": 26,
+        "num_volunteers": 127,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3870,
+        "donation_amount": 8537,
+        "num_ngos": 31,
+        "num_volunteers": 71,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2998,
+        "donation_amount": 62213,
+        "num_ngos": 35,
+        "num_volunteers": 445,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3374,
+        "donation_amount": 70001,
+        "num_ngos": 36,
+        "num_volunteers": 342,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1631,
+        "donation_amount": 25721,
+        "num_ngos": 24,
+        "num_volunteers": 48,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3690,
+        "donation_amount": 93848,
+        "num_ngos": 2,
+        "num_volunteers": 11,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4664,
+        "donation_amount": 9751,
+        "num_ngos": 42,
+        "num_volunteers": 191,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 347,
+        "donation_amount": 40068,
+        "num_ngos": 37,
+        "num_volunteers": 63,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2589,
+        "donation_amount": 60119,
+        "num_ngos": 32,
+        "num_volunteers": 56,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2220,
+        "donation_amount": 15927,
+        "num_ngos": 17,
+        "num_volunteers": 499,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3724,
+        "donation_amount": 56286,
+        "num_ngos": 13,
+        "num_volunteers": 109,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 747,
+        "donation_amount": 60884,
+        "num_ngos": 25,
+        "num_volunteers": 418,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3888,
+        "donation_amount": 70942,
+        "num_ngos": 29,
+        "num_volunteers": 500,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 280,
+        "donation_amount": 45829,
+        "num_ngos": 44,
+        "num_volunteers": 233,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3842,
+        "donation_amount": 62005,
+        "num_ngos": 32,
+        "num_volunteers": 353,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3886,
+        "donation_amount": 25573,
+        "num_ngos": 1,
+        "num_volunteers": 76,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3163,
+        "donation_amount": 63350,
+        "num_ngos": 34,
+        "num_volunteers": 79,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2902,
+        "donation_amount": 81995,
+        "num_ngos": 30,
+        "num_volunteers": 471,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2285,
+        "donation_amount": 47830,
+        "num_ngos": 36,
+        "num_volunteers": 335,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2053,
+        "donation_amount": 75327,
+        "num_ngos": 42,
+        "num_volunteers": 25,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 853,
+        "donation_amount": 83174,
+        "num_ngos": 9,
+        "num_volunteers": 41,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4531,
+        "donation_amount": 97505,
+        "num_ngos": 11,
+        "num_volunteers": 461,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 274,
+        "donation_amount": 88033,
+        "num_ngos": 34,
+        "num_volunteers": 195,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2492,
+        "donation_amount": 74817,
+        "num_ngos": 13,
+        "num_volunteers": 254,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4888,
+        "donation_amount": 78137,
+        "num_ngos": 45,
+        "num_volunteers": 157,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 159,
+        "donation_amount": 28196,
+        "num_ngos": 7,
+        "num_volunteers": 33,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1304,
+        "donation_amount": 34129,
+        "num_ngos": 50,
+        "num_volunteers": 363,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4221,
+        "donation_amount": 49279,
+        "num_ngos": 24,
+        "num_volunteers": 367,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 789,
+        "donation_amount": 90512,
+        "num_ngos": 49,
+        "num_volunteers": 137,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3016,
+        "donation_amount": 47605,
+        "num_ngos": 2,
+        "num_volunteers": 392,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 118,
+        "donation_amount": 40810,
+        "num_ngos": 24,
+        "num_volunteers": 401,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2961,
+        "donation_amount": 6969,
+        "num_ngos": 19,
+        "num_volunteers": 231,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1783,
+        "donation_amount": 1091,
+        "num_ngos": 45,
+        "num_volunteers": 375,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1305,
+        "donation_amount": 3515,
+        "num_ngos": 24,
+        "num_volunteers": 135,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4925,
+        "donation_amount": 37755,
+        "num_ngos": 4,
+        "num_volunteers": 353,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2983,
+        "donation_amount": 54115,
+        "num_ngos": 2,
+        "num_volunteers": 31,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 598,
+        "donation_amount": 82175,
+        "num_ngos": 9,
+        "num_volunteers": 463,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 302,
+        "donation_amount": 20885,
+        "num_ngos": 11,
+        "num_volunteers": 214,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4730,
+        "donation_amount": 89158,
+        "num_ngos": 31,
+        "num_volunteers": 472,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4167,
+        "donation_amount": 98706,
+        "num_ngos": 42,
+        "num_volunteers": 310,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1811,
+        "donation_amount": 21649,
+        "num_ngos": 47,
+        "num_volunteers": 467,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2270,
+        "donation_amount": 38063,
+        "num_ngos": 16,
+        "num_volunteers": 451,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 910,
+        "donation_amount": 12570,
+        "num_ngos": 44,
+        "num_volunteers": 200,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4384,
+        "donation_amount": 17640,
+        "num_ngos": 39,
+        "num_volunteers": 195,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1982,
+        "donation_amount": 36795,
+        "num_ngos": 31,
+        "num_volunteers": 17,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4344,
+        "donation_amount": 9244,
+        "num_ngos": 29,
+        "num_volunteers": 28,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1930,
+        "donation_amount": 11288,
+        "num_ngos": 4,
+        "num_volunteers": 421,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4589,
+        "donation_amount": 64949,
+        "num_ngos": 10,
+        "num_volunteers": 119,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3080,
+        "donation_amount": 10375,
+        "num_ngos": 2,
+        "num_volunteers": 362,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4656,
+        "donation_amount": 1506,
+        "num_ngos": 46,
+        "num_volunteers": 453,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1406,
+        "donation_amount": 95612,
+        "num_ngos": 40,
+        "num_volunteers": 365,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4571,
+        "donation_amount": 49661,
+        "num_ngos": 5,
+        "num_volunteers": 32,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 713,
+        "donation_amount": 14480,
+        "num_ngos": 14,
+        "num_volunteers": 206,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3875,
+        "donation_amount": 83286,
+        "num_ngos": 38,
+        "num_volunteers": 203,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3329,
+        "donation_amount": 67213,
+        "num_ngos": 30,
+        "num_volunteers": 450,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1534,
+        "donation_amount": 43754,
+        "num_ngos": 3,
+        "num_volunteers": 175,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2576,
+        "donation_amount": 38530,
+        "num_ngos": 34,
+        "num_volunteers": 243,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3815,
+        "donation_amount": 43874,
+        "num_ngos": 28,
+        "num_volunteers": 21,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 356,
+        "donation_amount": 18749,
+        "num_ngos": 2,
+        "num_volunteers": 212,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4616,
+        "donation_amount": 9520,
+        "num_ngos": 1,
+        "num_volunteers": 406,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1279,
+        "donation_amount": 69147,
+        "num_ngos": 40,
+        "num_volunteers": 142,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4159,
+        "donation_amount": 41829,
+        "num_ngos": 16,
+        "num_volunteers": 101,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4392,
+        "donation_amount": 95280,
+        "num_ngos": 23,
+        "num_volunteers": 233,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2189,
+        "donation_amount": 7800,
+        "num_ngos": 2,
+        "num_volunteers": 327,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3430,
+        "donation_amount": 11541,
+        "num_ngos": 36,
+        "num_volunteers": 438,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 956,
+        "donation_amount": 47461,
+        "num_ngos": 30,
+        "num_volunteers": 21,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1235,
+        "donation_amount": 49706,
+        "num_ngos": 19,
+        "num_volunteers": 77,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2818,
+        "donation_amount": 18987,
+        "num_ngos": 12,
+        "num_volunteers": 276,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2382,
+        "donation_amount": 92152,
+        "num_ngos": 20,
+        "num_volunteers": 28,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4841,
+        "donation_amount": 80808,
+        "num_ngos": 18,
+        "num_volunteers": 184,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 5000,
+        "donation_amount": 5049,
+        "num_ngos": 3,
+        "num_volunteers": 305,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4666,
+        "donation_amount": 19354,
+        "num_ngos": 3,
+        "num_volunteers": 95,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2438,
+        "donation_amount": 1108,
+        "num_ngos": 1,
+        "num_volunteers": 282,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1670,
+        "donation_amount": 36864,
+        "num_ngos": 23,
+        "num_volunteers": 392,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2323,
+        "donation_amount": 90776,
+        "num_ngos": 30,
+        "num_volunteers": 226,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2629,
+        "donation_amount": 33315,
+        "num_ngos": 23,
+        "num_volunteers": 294,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2512,
+        "donation_amount": 82435,
+        "num_ngos": 43,
+        "num_volunteers": 52,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2465,
+        "donation_amount": 96264,
+        "num_ngos": 35,
+        "num_volunteers": 246,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1484,
+        "donation_amount": 75474,
+        "num_ngos": 46,
+        "num_volunteers": 140,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3103,
+        "donation_amount": 95226,
+        "num_ngos": 32,
+        "num_volunteers": 425,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3393,
+        "donation_amount": 83539,
+        "num_ngos": 46,
+        "num_volunteers": 269,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3532,
+        "donation_amount": 71616,
+        "num_ngos": 27,
+        "num_volunteers": 367,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3401,
+        "donation_amount": 62417,
+        "num_ngos": 49,
+        "num_volunteers": 318,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 690,
+        "donation_amount": 97781,
+        "num_ngos": 41,
+        "num_volunteers": 16,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1436,
+        "donation_amount": 69369,
+        "num_ngos": 12,
+        "num_volunteers": 168,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2674,
+        "donation_amount": 80317,
+        "num_ngos": 26,
+        "num_volunteers": 445,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4391,
+        "donation_amount": 7393,
+        "num_ngos": 23,
+        "num_volunteers": 42,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3723,
+        "donation_amount": 13067,
+        "num_ngos": 48,
+        "num_volunteers": 59,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4728,
+        "donation_amount": 795,
+        "num_ngos": 31,
+        "num_volunteers": 169,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2187,
+        "donation_amount": 82091,
+        "num_ngos": 37,
+        "num_volunteers": 35,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1022,
+        "donation_amount": 9186,
+        "num_ngos": 22,
+        "num_volunteers": 122,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2855,
+        "donation_amount": 1573,
+        "num_ngos": 10,
+        "num_volunteers": 95,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4930,
+        "donation_amount": 64553,
+        "num_ngos": 5,
+        "num_volunteers": 188,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3551,
+        "donation_amount": 39586,
+        "num_ngos": 42,
+        "num_volunteers": 497,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2257,
+        "donation_amount": 5477,
+        "num_ngos": 10,
+        "num_volunteers": 37,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4625,
+        "donation_amount": 12499,
+        "num_ngos": 5,
+        "num_volunteers": 238,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 401,
+        "donation_amount": 55249,
+        "num_ngos": 49,
+        "num_volunteers": 93,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2287,
+        "donation_amount": 63826,
+        "num_ngos": 48,
+        "num_volunteers": 381,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4237,
+        "donation_amount": 47483,
+        "num_ngos": 13,
+        "num_volunteers": 200,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4030,
+        "donation_amount": 66729,
+        "num_ngos": 23,
+        "num_volunteers": 79,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1185,
+        "donation_amount": 81600,
+        "num_ngos": 47,
+        "num_volunteers": 374,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1301,
+        "donation_amount": 58467,
+        "num_ngos": 6,
+        "num_volunteers": 292,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2588,
+        "donation_amount": 98936,
+        "num_ngos": 10,
+        "num_volunteers": 98,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2961,
+        "donation_amount": 8925,
+        "num_ngos": 26,
+        "num_volunteers": 339,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3827,
+        "donation_amount": 44226,
+        "num_ngos": 48,
+        "num_volunteers": 320,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 793,
+        "donation_amount": 54001,
+        "num_ngos": 13,
+        "num_volunteers": 52,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3312,
+        "donation_amount": 87091,
+        "num_ngos": 36,
+        "num_volunteers": 402,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3878,
+        "donation_amount": 71590,
+        "num_ngos": 7,
+        "num_volunteers": 418,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1019,
+        "donation_amount": 41881,
+        "num_ngos": 48,
+        "num_volunteers": 35,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1430,
+        "donation_amount": 54515,
+        "num_ngos": 39,
+        "num_volunteers": 424,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4914,
+        "donation_amount": 93198,
+        "num_ngos": 8,
+        "num_volunteers": 161,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 828,
+        "donation_amount": 60839,
+        "num_ngos": 21,
+        "num_volunteers": 60,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4029,
+        "donation_amount": 96720,
+        "num_ngos": 15,
+        "num_volunteers": 50,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2365,
+        "donation_amount": 3150,
+        "num_ngos": 15,
+        "num_volunteers": 334,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3125,
+        "donation_amount": 38398,
+        "num_ngos": 37,
+        "num_volunteers": 253,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4933,
+        "donation_amount": 89456,
+        "num_ngos": 49,
+        "num_volunteers": 259,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4142,
+        "donation_amount": 90650,
+        "num_ngos": 26,
+        "num_volunteers": 433,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 848,
+        "donation_amount": 84517,
+        "num_ngos": 22,
+        "num_volunteers": 431,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1421,
+        "donation_amount": 99543,
+        "num_ngos": 7,
+        "num_volunteers": 230,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 967,
+        "donation_amount": 47440,
+        "num_ngos": 49,
+        "num_volunteers": 399,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 669,
+        "donation_amount": 24084,
+        "num_ngos": 18,
+        "num_volunteers": 321,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4453,
+        "donation_amount": 98749,
+        "num_ngos": 49,
+        "num_volunteers": 310,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1953,
+        "donation_amount": 25500,
+        "num_ngos": 20,
+        "num_volunteers": 104,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 759,
+        "donation_amount": 17696,
+        "num_ngos": 15,
+        "num_volunteers": 326,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2702,
+        "donation_amount": 81938,
+        "num_ngos": 2,
+        "num_volunteers": 338,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 188,
+        "donation_amount": 2577,
+        "num_ngos": 30,
+        "num_volunteers": 470,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3226,
+        "donation_amount": 94223,
+        "num_ngos": 37,
+        "num_volunteers": 151,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2598,
+        "donation_amount": 44980,
+        "num_ngos": 19,
+        "num_volunteers": 339,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1116,
+        "donation_amount": 7220,
+        "num_ngos": 7,
+        "num_volunteers": 59,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1300,
+        "donation_amount": 3287,
+        "num_ngos": 47,
+        "num_volunteers": 460,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3115,
+        "donation_amount": 23224,
+        "num_ngos": 50,
+        "num_volunteers": 372,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4518,
+        "donation_amount": 49954,
+        "num_ngos": 40,
+        "num_volunteers": 432,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4700,
+        "donation_amount": 60779,
+        "num_ngos": 18,
+        "num_volunteers": 147,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1057,
+        "donation_amount": 37478,
+        "num_ngos": 50,
+        "num_volunteers": 484,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4337,
+        "donation_amount": 58583,
+        "num_ngos": 40,
+        "num_volunteers": 285,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2858,
+        "donation_amount": 72474,
+        "num_ngos": 13,
+        "num_volunteers": 58,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3073,
+        "donation_amount": 39262,
+        "num_ngos": 39,
+        "num_volunteers": 277,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3337,
+        "donation_amount": 13224,
+        "num_ngos": 10,
+        "num_volunteers": 290,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2172,
+        "donation_amount": 78738,
+        "num_ngos": 5,
+        "num_volunteers": 416,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1647,
+        "donation_amount": 40652,
+        "num_ngos": 10,
+        "num_volunteers": 270,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3156,
+        "donation_amount": 36045,
+        "num_ngos": 44,
+        "num_volunteers": 309,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4188,
+        "donation_amount": 20745,
+        "num_ngos": 10,
+        "num_volunteers": 413,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1039,
+        "donation_amount": 89517,
+        "num_ngos": 35,
+        "num_volunteers": 27,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4579,
+        "donation_amount": 62444,
+        "num_ngos": 18,
+        "num_volunteers": 368,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3050,
+        "donation_amount": 32746,
+        "num_ngos": 41,
+        "num_volunteers": 221,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1910,
+        "donation_amount": 17123,
+        "num_ngos": 32,
+        "num_volunteers": 321,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2185,
+        "donation_amount": 72355,
+        "num_ngos": 50,
+        "num_volunteers": 268,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4109,
+        "donation_amount": 50246,
+        "num_ngos": 42,
+        "num_volunteers": 164,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3838,
+        "donation_amount": 16536,
+        "num_ngos": 16,
+        "num_volunteers": 415,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 981,
+        "donation_amount": 57745,
+        "num_ngos": 31,
+        "num_volunteers": 374,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1375,
+        "donation_amount": 78000,
+        "num_ngos": 37,
+        "num_volunteers": 355,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3571,
+        "donation_amount": 78608,
+        "num_ngos": 40,
+        "num_volunteers": 46,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 880,
+        "donation_amount": 37878,
+        "num_ngos": 32,
+        "num_volunteers": 291,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3782,
+        "donation_amount": 73724,
+        "num_ngos": 23,
+        "num_volunteers": 66,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3328,
+        "donation_amount": 70507,
+        "num_ngos": 22,
+        "num_volunteers": 181,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 116,
+        "donation_amount": 11094,
+        "num_ngos": 50,
+        "num_volunteers": 145,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3732,
+        "donation_amount": 17335,
+        "num_ngos": 31,
+        "num_volunteers": 251,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 64,
+        "donation_amount": 779,
+        "num_ngos": 50,
+        "num_volunteers": 157,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2862,
+        "donation_amount": 66257,
+        "num_ngos": 28,
+        "num_volunteers": 491,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1257,
+        "donation_amount": 90999,
+        "num_ngos": 40,
+        "num_volunteers": 469,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2895,
+        "donation_amount": 37492,
+        "num_ngos": 14,
+        "num_volunteers": 483,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3377,
+        "donation_amount": 27388,
+        "num_ngos": 1,
+        "num_volunteers": 422,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3435,
+        "donation_amount": 56312,
+        "num_ngos": 40,
+        "num_volunteers": 352,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3981,
+        "donation_amount": 47471,
+        "num_ngos": 5,
+        "num_volunteers": 388,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2421,
+        "donation_amount": 96265,
+        "num_ngos": 35,
+        "num_volunteers": 242,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2451,
+        "donation_amount": 65000,
+        "num_ngos": 4,
+        "num_volunteers": 467,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2972,
+        "donation_amount": 50743,
+        "num_ngos": 20,
+        "num_volunteers": 171,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4973,
+        "donation_amount": 60827,
+        "num_ngos": 32,
+        "num_volunteers": 214,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4183,
+        "donation_amount": 65358,
+        "num_ngos": 26,
+        "num_volunteers": 490,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 948,
+        "donation_amount": 37165,
+        "num_ngos": 42,
+        "num_volunteers": 89,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3309,
+        "donation_amount": 81738,
+        "num_ngos": 9,
+        "num_volunteers": 149,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4198,
+        "donation_amount": 91140,
+        "num_ngos": 6,
+        "num_volunteers": 57,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3707,
+        "donation_amount": 39794,
+        "num_ngos": 25,
+        "num_volunteers": 324,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 187,
+        "donation_amount": 33672,
+        "num_ngos": 22,
+        "num_volunteers": 42,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4289,
+        "donation_amount": 71677,
+        "num_ngos": 40,
+        "num_volunteers": 438,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1037,
+        "donation_amount": 78591,
+        "num_ngos": 5,
+        "num_volunteers": 369,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3140,
+        "donation_amount": 15818,
+        "num_ngos": 28,
+        "num_volunteers": 105,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2872,
+        "donation_amount": 9064,
+        "num_ngos": 25,
+        "num_volunteers": 476,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2596,
+        "donation_amount": 84046,
+        "num_ngos": 39,
+        "num_volunteers": 436,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4524,
+        "donation_amount": 55707,
+        "num_ngos": 12,
+        "num_volunteers": 238,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2747,
+        "donation_amount": 77813,
+        "num_ngos": 21,
+        "num_volunteers": 177,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 254,
+        "donation_amount": 69544,
+        "num_ngos": 49,
+        "num_volunteers": 174,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1781,
+        "donation_amount": 37409,
+        "num_ngos": 45,
+        "num_volunteers": 350,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 626,
+        "donation_amount": 47990,
+        "num_ngos": 17,
+        "num_volunteers": 38,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2651,
+        "donation_amount": 98505,
+        "num_ngos": 6,
+        "num_volunteers": 67,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 174,
+        "donation_amount": 79784,
+        "num_ngos": 10,
+        "num_volunteers": 443,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1922,
+        "donation_amount": 24071,
+        "num_ngos": 42,
+        "num_volunteers": 392,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3188,
+        "donation_amount": 81973,
+        "num_ngos": 17,
+        "num_volunteers": 461,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4497,
+        "donation_amount": 75308,
+        "num_ngos": 29,
+        "num_volunteers": 255,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4686,
+        "donation_amount": 87897,
+        "num_ngos": 9,
+        "num_volunteers": 86,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1660,
+        "donation_amount": 92442,
+        "num_ngos": 19,
+        "num_volunteers": 374,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3511,
+        "donation_amount": 95251,
+        "num_ngos": 1,
+        "num_volunteers": 382,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1269,
+        "donation_amount": 69596,
+        "num_ngos": 7,
+        "num_volunteers": 412,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1095,
+        "donation_amount": 19994,
+        "num_ngos": 11,
+        "num_volunteers": 84,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2370,
+        "donation_amount": 58655,
+        "num_ngos": 20,
+        "num_volunteers": 109,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 309,
+        "donation_amount": 19438,
+        "num_ngos": 5,
+        "num_volunteers": 299,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 423,
+        "donation_amount": 33447,
+        "num_ngos": 41,
+        "num_volunteers": 320,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1691,
+        "donation_amount": 83916,
+        "num_ngos": 5,
+        "num_volunteers": 407,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 433,
+        "donation_amount": 77943,
+        "num_ngos": 30,
+        "num_volunteers": 282,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4018,
+        "donation_amount": 63230,
+        "num_ngos": 15,
+        "num_volunteers": 366,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4092,
+        "donation_amount": 57521,
+        "num_ngos": 26,
+        "num_volunteers": 231,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2658,
+        "donation_amount": 47205,
+        "num_ngos": 22,
+        "num_volunteers": 349,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1741,
+        "donation_amount": 13058,
+        "num_ngos": 33,
+        "num_volunteers": 102,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2702,
+        "donation_amount": 98118,
+        "num_ngos": 26,
+        "num_volunteers": 170,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 343,
+        "donation_amount": 3598,
+        "num_ngos": 6,
+        "num_volunteers": 102,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4221,
+        "donation_amount": 3225,
+        "num_ngos": 1,
+        "num_volunteers": 21,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1818,
+        "donation_amount": 8617,
+        "num_ngos": 37,
+        "num_volunteers": 41,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2898,
+        "donation_amount": 8837,
+        "num_ngos": 15,
+        "num_volunteers": 185,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2095,
+        "donation_amount": 6967,
+        "num_ngos": 30,
+        "num_volunteers": 295,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1956,
+        "donation_amount": 35126,
+        "num_ngos": 42,
+        "num_volunteers": 341,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1466,
+        "donation_amount": 8381,
+        "num_ngos": 30,
+        "num_volunteers": 215,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4270,
+        "donation_amount": 72916,
+        "num_ngos": 23,
+        "num_volunteers": 424,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2946,
+        "donation_amount": 53153,
+        "num_ngos": 40,
+        "num_volunteers": 198,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4526,
+        "donation_amount": 63367,
+        "num_ngos": 2,
+        "num_volunteers": 138,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 50,
+        "donation_amount": 45837,
+        "num_ngos": 37,
+        "num_volunteers": 298,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 810,
+        "donation_amount": 73724,
+        "num_ngos": 39,
+        "num_volunteers": 230,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3249,
+        "donation_amount": 11365,
+        "num_ngos": 35,
+        "num_volunteers": 487,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 323,
+        "donation_amount": 15257,
+        "num_ngos": 19,
+        "num_volunteers": 123,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2692,
+        "donation_amount": 53030,
+        "num_ngos": 21,
+        "num_volunteers": 131,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4203,
+        "donation_amount": 73958,
+        "num_ngos": 33,
+        "num_volunteers": 98,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4842,
+        "donation_amount": 74075,
+        "num_ngos": 47,
+        "num_volunteers": 170,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 896,
+        "donation_amount": 51231,
+        "num_ngos": 16,
+        "num_volunteers": 117,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2142,
+        "donation_amount": 95891,
+        "num_ngos": 43,
+        "num_volunteers": 177,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3037,
+        "donation_amount": 41441,
+        "num_ngos": 49,
+        "num_volunteers": 495,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2795,
+        "donation_amount": 97276,
+        "num_ngos": 31,
+        "num_volunteers": 15,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3492,
+        "donation_amount": 60118,
+        "num_ngos": 34,
+        "num_volunteers": 222,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1307,
+        "donation_amount": 46036,
+        "num_ngos": 20,
+        "num_volunteers": 349,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3604,
+        "donation_amount": 32146,
+        "num_ngos": 24,
+        "num_volunteers": 340,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1173,
+        "donation_amount": 29668,
+        "num_ngos": 50,
+        "num_volunteers": 458,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2825,
+        "donation_amount": 82258,
+        "num_ngos": 27,
+        "num_volunteers": 422,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3407,
+        "donation_amount": 12365,
+        "num_ngos": 13,
+        "num_volunteers": 282,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1198,
+        "donation_amount": 12631,
+        "num_ngos": 41,
+        "num_volunteers": 72,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2037,
+        "donation_amount": 57906,
+        "num_ngos": 31,
+        "num_volunteers": 119,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3119,
+        "donation_amount": 41371,
+        "num_ngos": 4,
+        "num_volunteers": 229,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2424,
+        "donation_amount": 27977,
+        "num_ngos": 9,
+        "num_volunteers": 55,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 856,
+        "donation_amount": 30130,
+        "num_ngos": 42,
+        "num_volunteers": 272,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 323,
+        "donation_amount": 23849,
+        "num_ngos": 11,
+        "num_volunteers": 221,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2424,
+        "donation_amount": 25079,
+        "num_ngos": 15,
+        "num_volunteers": 72,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 58,
+        "donation_amount": 78542,
+        "num_ngos": 48,
+        "num_volunteers": 25,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2257,
+        "donation_amount": 9915,
+        "num_ngos": 2,
+        "num_volunteers": 259,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1380,
+        "donation_amount": 84324,
+        "num_ngos": 8,
+        "num_volunteers": 345,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2678,
+        "donation_amount": 36159,
+        "num_ngos": 44,
+        "num_volunteers": 302,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2619,
+        "donation_amount": 34107,
+        "num_ngos": 15,
+        "num_volunteers": 188,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4770,
+        "donation_amount": 68020,
+        "num_ngos": 6,
+        "num_volunteers": 89,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 232,
+        "donation_amount": 69379,
+        "num_ngos": 45,
+        "num_volunteers": 302,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3508,
+        "donation_amount": 74637,
+        "num_ngos": 31,
+        "num_volunteers": 344,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3167,
+        "donation_amount": 74291,
+        "num_ngos": 12,
+        "num_volunteers": 212,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4651,
+        "donation_amount": 94464,
+        "num_ngos": 5,
+        "num_volunteers": 20,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2883,
+        "donation_amount": 63103,
+        "num_ngos": 20,
+        "num_volunteers": 322,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3423,
+        "donation_amount": 43908,
+        "num_ngos": 8,
+        "num_volunteers": 332,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1318,
+        "donation_amount": 20749,
+        "num_ngos": 15,
+        "num_volunteers": 300,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1465,
+        "donation_amount": 37918,
+        "num_ngos": 44,
+        "num_volunteers": 155,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1813,
+        "donation_amount": 30661,
+        "num_ngos": 36,
+        "num_volunteers": 270,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2468,
+        "donation_amount": 9363,
+        "num_ngos": 15,
+        "num_volunteers": 335,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 261,
+        "donation_amount": 98944,
+        "num_ngos": 6,
+        "num_volunteers": 86,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3808,
+        "donation_amount": 208,
+        "num_ngos": 33,
+        "num_volunteers": 71,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1154,
+        "donation_amount": 56092,
+        "num_ngos": 44,
+        "num_volunteers": 375,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4758,
+        "donation_amount": 82751,
+        "num_ngos": 39,
+        "num_volunteers": 406,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2308,
+        "donation_amount": 8764,
+        "num_ngos": 11,
+        "num_volunteers": 205,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4545,
+        "donation_amount": 24938,
+        "num_ngos": 36,
+        "num_volunteers": 25,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 849,
+        "donation_amount": 83624,
+        "num_ngos": 33,
+        "num_volunteers": 339,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1589,
+        "donation_amount": 99517,
+        "num_ngos": 28,
+        "num_volunteers": 330,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4578,
+        "donation_amount": 64612,
+        "num_ngos": 18,
+        "num_volunteers": 75,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3636,
+        "donation_amount": 70716,
+        "num_ngos": 1,
+        "num_volunteers": 161,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 148,
+        "donation_amount": 72295,
+        "num_ngos": 50,
+        "num_volunteers": 420,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 99,
+        "donation_amount": 15972,
+        "num_ngos": 46,
+        "num_volunteers": 315,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2382,
+        "donation_amount": 42373,
+        "num_ngos": 11,
+        "num_volunteers": 215,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1552,
+        "donation_amount": 52401,
+        "num_ngos": 20,
+        "num_volunteers": 285,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 573,
+        "donation_amount": 63039,
+        "num_ngos": 9,
+        "num_volunteers": 489,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4067,
+        "donation_amount": 46471,
+        "num_ngos": 29,
+        "num_volunteers": 349,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 504,
+        "donation_amount": 9845,
+        "num_ngos": 29,
+        "num_volunteers": 42,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 588,
+        "donation_amount": 75512,
+        "num_ngos": 3,
+        "num_volunteers": 431,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 473,
+        "donation_amount": 23096,
+        "num_ngos": 24,
+        "num_volunteers": 402,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 377,
+        "donation_amount": 33230,
+        "num_ngos": 48,
+        "num_volunteers": 378,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 274,
+        "donation_amount": 37434,
+        "num_ngos": 48,
+        "num_volunteers": 94,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 720,
+        "donation_amount": 36485,
+        "num_ngos": 18,
+        "num_volunteers": 213,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3324,
+        "donation_amount": 47389,
+        "num_ngos": 21,
+        "num_volunteers": 331,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 64,
+        "donation_amount": 3658,
+        "num_ngos": 28,
+        "num_volunteers": 441,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2297,
+        "donation_amount": 71892,
+        "num_ngos": 9,
+        "num_volunteers": 312,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 766,
+        "donation_amount": 88065,
+        "num_ngos": 9,
+        "num_volunteers": 362,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2887,
+        "donation_amount": 31283,
+        "num_ngos": 22,
+        "num_volunteers": 90,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3714,
+        "donation_amount": 33193,
+        "num_ngos": 21,
+        "num_volunteers": 263,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 991,
+        "donation_amount": 62576,
+        "num_ngos": 40,
+        "num_volunteers": 14,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4414,
+        "donation_amount": 68305,
+        "num_ngos": 39,
+        "num_volunteers": 208,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1867,
+        "donation_amount": 66478,
+        "num_ngos": 50,
+        "num_volunteers": 73,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1007,
+        "donation_amount": 29347,
+        "num_ngos": 36,
+        "num_volunteers": 389,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3009,
+        "donation_amount": 49718,
+        "num_ngos": 28,
+        "num_volunteers": 219,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1434,
+        "donation_amount": 94921,
+        "num_ngos": 36,
+        "num_volunteers": 241,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2996,
+        "donation_amount": 65089,
+        "num_ngos": 24,
+        "num_volunteers": 189,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1500,
+        "donation_amount": 15071,
+        "num_ngos": 29,
+        "num_volunteers": 53,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1776,
+        "donation_amount": 15810,
+        "num_ngos": 1,
+        "num_volunteers": 76,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1775,
+        "donation_amount": 88003,
+        "num_ngos": 26,
+        "num_volunteers": 260,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1186,
+        "donation_amount": 13050,
+        "num_ngos": 23,
+        "num_volunteers": 159,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 854,
+        "donation_amount": 81007,
+        "num_ngos": 12,
+        "num_volunteers": 487,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 967,
+        "donation_amount": 42683,
+        "num_ngos": 36,
+        "num_volunteers": 290,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4080,
+        "donation_amount": 14298,
+        "num_ngos": 11,
+        "num_volunteers": 76,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4117,
+        "donation_amount": 54804,
+        "num_ngos": 23,
+        "num_volunteers": 233,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3635,
+        "donation_amount": 56857,
+        "num_ngos": 24,
+        "num_volunteers": 406,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3135,
+        "donation_amount": 82194,
+        "num_ngos": 20,
+        "num_volunteers": 447,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3317,
+        "donation_amount": 97886,
+        "num_ngos": 4,
+        "num_volunteers": 476,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 701,
+        "donation_amount": 92126,
+        "num_ngos": 23,
+        "num_volunteers": 397,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2476,
+        "donation_amount": 65341,
+        "num_ngos": 37,
+        "num_volunteers": 442,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1059,
+        "donation_amount": 29586,
+        "num_ngos": 17,
+        "num_volunteers": 448,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2860,
+        "donation_amount": 63761,
+        "num_ngos": 19,
+        "num_volunteers": 169,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2779,
+        "donation_amount": 94336,
+        "num_ngos": 18,
+        "num_volunteers": 135,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 217,
+        "donation_amount": 25341,
+        "num_ngos": 41,
+        "num_volunteers": 88,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4998,
+        "donation_amount": 34097,
+        "num_ngos": 19,
+        "num_volunteers": 119,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 84,
+        "donation_amount": 19221,
+        "num_ngos": 39,
+        "num_volunteers": 457,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 374,
+        "donation_amount": 12140,
+        "num_ngos": 6,
+        "num_volunteers": 368,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1170,
+        "donation_amount": 29742,
+        "num_ngos": 41,
+        "num_volunteers": 36,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3434,
+        "donation_amount": 42466,
+        "num_ngos": 10,
+        "num_volunteers": 23,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3304,
+        "donation_amount": 26259,
+        "num_ngos": 17,
+        "num_volunteers": 442,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3329,
+        "donation_amount": 33092,
+        "num_ngos": 14,
+        "num_volunteers": 80,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1831,
+        "donation_amount": 48773,
+        "num_ngos": 5,
+        "num_volunteers": 339,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1553,
+        "donation_amount": 55505,
+        "num_ngos": 40,
+        "num_volunteers": 279,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4457,
+        "donation_amount": 79866,
+        "num_ngos": 42,
+        "num_volunteers": 416,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1855,
+        "donation_amount": 61813,
+        "num_ngos": 11,
+        "num_volunteers": 370,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 630,
+        "donation_amount": 51944,
+        "num_ngos": 49,
+        "num_volunteers": 421,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3313,
+        "donation_amount": 56984,
+        "num_ngos": 12,
+        "num_volunteers": 413,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2080,
+        "donation_amount": 2242,
+        "num_ngos": 40,
+        "num_volunteers": 72,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1980,
+        "donation_amount": 8227,
+        "num_ngos": 44,
+        "num_volunteers": 370,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1714,
+        "donation_amount": 77751,
+        "num_ngos": 28,
+        "num_volunteers": 313,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1565,
+        "donation_amount": 20129,
+        "num_ngos": 16,
+        "num_volunteers": 452,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1211,
+        "donation_amount": 89705,
+        "num_ngos": 7,
+        "num_volunteers": 434,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1177,
+        "donation_amount": 94145,
+        "num_ngos": 16,
+        "num_volunteers": 105,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3785,
+        "donation_amount": 34503,
+        "num_ngos": 8,
+        "num_volunteers": 372,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4173,
+        "donation_amount": 66558,
+        "num_ngos": 35,
+        "num_volunteers": 452,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2501,
+        "donation_amount": 45575,
+        "num_ngos": 7,
+        "num_volunteers": 343,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1835,
+        "donation_amount": 43875,
+        "num_ngos": 6,
+        "num_volunteers": 20,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1899,
+        "donation_amount": 99329,
+        "num_ngos": 33,
+        "num_volunteers": 334,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1079,
+        "donation_amount": 67809,
+        "num_ngos": 21,
+        "num_volunteers": 98,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3574,
+        "donation_amount": 31107,
+        "num_ngos": 13,
+        "num_volunteers": 246,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 503,
+        "donation_amount": 47048,
+        "num_ngos": 44,
+        "num_volunteers": 112,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4214,
+        "donation_amount": 93838,
+        "num_ngos": 29,
+        "num_volunteers": 454,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4155,
+        "donation_amount": 17286,
+        "num_ngos": 28,
+        "num_volunteers": 150,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 448,
+        "donation_amount": 2867,
+        "num_ngos": 44,
+        "num_volunteers": 267,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2489,
+        "donation_amount": 14061,
+        "num_ngos": 13,
+        "num_volunteers": 153,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 748,
+        "donation_amount": 20858,
+        "num_ngos": 11,
+        "num_volunteers": 498,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4875,
+        "donation_amount": 41153,
+        "num_ngos": 21,
+        "num_volunteers": 271,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 908,
+        "donation_amount": 78896,
+        "num_ngos": 2,
+        "num_volunteers": 398,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2260,
+        "donation_amount": 93386,
+        "num_ngos": 47,
+        "num_volunteers": 367,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1020,
+        "donation_amount": 17907,
+        "num_ngos": 28,
+        "num_volunteers": 449,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1859,
+        "donation_amount": 3423,
+        "num_ngos": 26,
+        "num_volunteers": 143,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2604,
+        "donation_amount": 97805,
+        "num_ngos": 30,
+        "num_volunteers": 479,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2981,
+        "donation_amount": 48146,
+        "num_ngos": 7,
+        "num_volunteers": 175,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2065,
+        "donation_amount": 33966,
+        "num_ngos": 42,
+        "num_volunteers": 210,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3466,
+        "donation_amount": 17425,
+        "num_ngos": 26,
+        "num_volunteers": 421,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 691,
+        "donation_amount": 70024,
+        "num_ngos": 45,
+        "num_volunteers": 451,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3705,
+        "donation_amount": 7275,
+        "num_ngos": 2,
+        "num_volunteers": 229,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2138,
+        "donation_amount": 74759,
+        "num_ngos": 8,
+        "num_volunteers": 218,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1142,
+        "donation_amount": 50396,
+        "num_ngos": 26,
+        "num_volunteers": 157,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4724,
+        "donation_amount": 79914,
+        "num_ngos": 41,
+        "num_volunteers": 82,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 247,
+        "donation_amount": 42462,
+        "num_ngos": 32,
+        "num_volunteers": 404,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4628,
+        "donation_amount": 34779,
+        "num_ngos": 47,
+        "num_volunteers": 145,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 885,
+        "donation_amount": 33100,
+        "num_ngos": 23,
+        "num_volunteers": 156,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2846,
+        "donation_amount": 11226,
+        "num_ngos": 44,
+        "num_volunteers": 276,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3667,
+        "donation_amount": 84236,
+        "num_ngos": 8,
+        "num_volunteers": 282,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4904,
+        "donation_amount": 35043,
+        "num_ngos": 9,
+        "num_volunteers": 182,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1541,
+        "donation_amount": 86487,
+        "num_ngos": 50,
+        "num_volunteers": 289,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 70,
+        "donation_amount": 97523,
+        "num_ngos": 26,
+        "num_volunteers": 263,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3320,
+        "donation_amount": 5659,
+        "num_ngos": 37,
+        "num_volunteers": 481,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4376,
+        "donation_amount": 5777,
+        "num_ngos": 15,
+        "num_volunteers": 341,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1004,
+        "donation_amount": 12812,
+        "num_ngos": 47,
+        "num_volunteers": 234,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1938,
+        "donation_amount": 2515,
+        "num_ngos": 30,
+        "num_volunteers": 190,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1439,
+        "donation_amount": 18788,
+        "num_ngos": 4,
+        "num_volunteers": 260,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1674,
+        "donation_amount": 63360,
+        "num_ngos": 3,
+        "num_volunteers": 305,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4579,
+        "donation_amount": 72857,
+        "num_ngos": 38,
+        "num_volunteers": 104,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4487,
+        "donation_amount": 64069,
+        "num_ngos": 4,
+        "num_volunteers": 188,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1335,
+        "donation_amount": 68218,
+        "num_ngos": 17,
+        "num_volunteers": 59,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2551,
+        "donation_amount": 88891,
+        "num_ngos": 22,
+        "num_volunteers": 119,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2686,
+        "donation_amount": 30060,
+        "num_ngos": 2,
+        "num_volunteers": 498,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2880,
+        "donation_amount": 37873,
+        "num_ngos": 4,
+        "num_volunteers": 306,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 724,
+        "donation_amount": 24812,
+        "num_ngos": 10,
+        "num_volunteers": 197,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2941,
+        "donation_amount": 54848,
+        "num_ngos": 28,
+        "num_volunteers": 192,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4491,
+        "donation_amount": 11115,
+        "num_ngos": 42,
+        "num_volunteers": 80,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1943,
+        "donation_amount": 28131,
+        "num_ngos": 1,
+        "num_volunteers": 460,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2942,
+        "donation_amount": 95657,
+        "num_ngos": 3,
+        "num_volunteers": 200,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1955,
+        "donation_amount": 91298,
+        "num_ngos": 44,
+        "num_volunteers": 223,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 95,
+        "donation_amount": 72841,
+        "num_ngos": 20,
+        "num_volunteers": 469,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1062,
+        "donation_amount": 38353,
+        "num_ngos": 31,
+        "num_volunteers": 179,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3791,
+        "donation_amount": 250,
+        "num_ngos": 45,
+        "num_volunteers": 413,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4743,
+        "donation_amount": 89835,
+        "num_ngos": 10,
+        "num_volunteers": 391,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 907,
+        "donation_amount": 24963,
+        "num_ngos": 24,
+        "num_volunteers": 218,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2486,
+        "donation_amount": 84903,
+        "num_ngos": 20,
+        "num_volunteers": 258,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1761,
+        "donation_amount": 61073,
+        "num_ngos": 20,
+        "num_volunteers": 261,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 505,
+        "donation_amount": 60669,
+        "num_ngos": 3,
+        "num_volunteers": 223,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2143,
+        "donation_amount": 93509,
+        "num_ngos": 35,
+        "num_volunteers": 271,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2788,
+        "donation_amount": 32780,
+        "num_ngos": 6,
+        "num_volunteers": 121,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 633,
+        "donation_amount": 41325,
+        "num_ngos": 37,
+        "num_volunteers": 210,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3297,
+        "donation_amount": 68533,
+        "num_ngos": 48,
+        "num_volunteers": 316,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3675,
+        "donation_amount": 25909,
+        "num_ngos": 24,
+        "num_volunteers": 342,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1174,
+        "donation_amount": 94306,
+        "num_ngos": 7,
+        "num_volunteers": 452,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4935,
+        "donation_amount": 75890,
+        "num_ngos": 44,
+        "num_volunteers": 219,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2245,
+        "donation_amount": 1058,
+        "num_ngos": 36,
+        "num_volunteers": 493,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4475,
+        "donation_amount": 59377,
+        "num_ngos": 4,
+        "num_volunteers": 74,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 649,
+        "donation_amount": 22408,
+        "num_ngos": 15,
+        "num_volunteers": 104,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4193,
+        "donation_amount": 11858,
+        "num_ngos": 32,
+        "num_volunteers": 196,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3463,
+        "donation_amount": 48316,
+        "num_ngos": 12,
+        "num_volunteers": 106,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2431,
+        "donation_amount": 55646,
+        "num_ngos": 43,
+        "num_volunteers": 142,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 373,
+        "donation_amount": 62456,
+        "num_ngos": 31,
+        "num_volunteers": 251,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1068,
+        "donation_amount": 99259,
+        "num_ngos": 2,
+        "num_volunteers": 337,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 264,
+        "donation_amount": 80309,
+        "num_ngos": 40,
+        "num_volunteers": 283,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 365,
+        "donation_amount": 29856,
+        "num_ngos": 39,
+        "num_volunteers": 277,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2486,
+        "donation_amount": 19284,
+        "num_ngos": 11,
+        "num_volunteers": 460,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2395,
+        "donation_amount": 31998,
+        "num_ngos": 13,
+        "num_volunteers": 218,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3541,
+        "donation_amount": 61283,
+        "num_ngos": 24,
+        "num_volunteers": 401,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1154,
+        "donation_amount": 62164,
+        "num_ngos": 30,
+        "num_volunteers": 120,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 429,
+        "donation_amount": 71679,
+        "num_ngos": 37,
+        "num_volunteers": 471,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4728,
+        "donation_amount": 96654,
+        "num_ngos": 39,
+        "num_volunteers": 376,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1662,
+        "donation_amount": 13111,
+        "num_ngos": 32,
+        "num_volunteers": 229,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1595,
+        "donation_amount": 68787,
+        "num_ngos": 50,
+        "num_volunteers": 429,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4806,
+        "donation_amount": 43477,
+        "num_ngos": 47,
+        "num_volunteers": 162,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1406,
+        "donation_amount": 12542,
+        "num_ngos": 13,
+        "num_volunteers": 427,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 890,
+        "donation_amount": 84128,
+        "num_ngos": 4,
+        "num_volunteers": 395,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1167,
+        "donation_amount": 79227,
+        "num_ngos": 8,
+        "num_volunteers": 322,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1116,
+        "donation_amount": 77700,
+        "num_ngos": 26,
+        "num_volunteers": 120,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3590,
+        "donation_amount": 46344,
+        "num_ngos": 45,
+        "num_volunteers": 273,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3724,
+        "donation_amount": 23453,
+        "num_ngos": 20,
+        "num_volunteers": 145,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3576,
+        "donation_amount": 21631,
+        "num_ngos": 16,
+        "num_volunteers": 447,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4951,
+        "donation_amount": 71497,
+        "num_ngos": 42,
+        "num_volunteers": 214,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4690,
+        "donation_amount": 20936,
+        "num_ngos": 34,
+        "num_volunteers": 111,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4970,
+        "donation_amount": 60011,
+        "num_ngos": 37,
+        "num_volunteers": 472,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3527,
+        "donation_amount": 75006,
+        "num_ngos": 16,
+        "num_volunteers": 286,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3138,
+        "donation_amount": 18520,
+        "num_ngos": 45,
+        "num_volunteers": 394,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4938,
+        "donation_amount": 40737,
+        "num_ngos": 1,
+        "num_volunteers": 28,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 551,
+        "donation_amount": 99300,
+        "num_ngos": 26,
+        "num_volunteers": 256,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4133,
+        "donation_amount": 89870,
+        "num_ngos": 22,
+        "num_volunteers": 174,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2543,
+        "donation_amount": 85101,
+        "num_ngos": 8,
+        "num_volunteers": 388,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4035,
+        "donation_amount": 40103,
+        "num_ngos": 27,
+        "num_volunteers": 224,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 986,
+        "donation_amount": 24618,
+        "num_ngos": 49,
+        "num_volunteers": 103,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 687,
+        "donation_amount": 75781,
+        "num_ngos": 44,
+        "num_volunteers": 442,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4307,
+        "donation_amount": 72829,
+        "num_ngos": 22,
+        "num_volunteers": 65,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 294,
+        "donation_amount": 16550,
+        "num_ngos": 15,
+        "num_volunteers": 463,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2270,
+        "donation_amount": 27395,
+        "num_ngos": 14,
+        "num_volunteers": 67,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4961,
+        "donation_amount": 55728,
+        "num_ngos": 7,
+        "num_volunteers": 72,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2640,
+        "donation_amount": 20929,
+        "num_ngos": 2,
+        "num_volunteers": 244,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2273,
+        "donation_amount": 74907,
+        "num_ngos": 33,
+        "num_volunteers": 62,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 201,
+        "donation_amount": 95828,
+        "num_ngos": 40,
+        "num_volunteers": 230,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3417,
+        "donation_amount": 74164,
+        "num_ngos": 13,
+        "num_volunteers": 331,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 57,
+        "donation_amount": 82180,
+        "num_ngos": 12,
+        "num_volunteers": 257,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4509,
+        "donation_amount": 66575,
+        "num_ngos": 48,
+        "num_volunteers": 175,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4496,
+        "donation_amount": 7542,
+        "num_ngos": 9,
+        "num_volunteers": 35,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3488,
+        "donation_amount": 25646,
+        "num_ngos": 19,
+        "num_volunteers": 220,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3857,
+        "donation_amount": 11789,
+        "num_ngos": 26,
+        "num_volunteers": 245,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1493,
+        "donation_amount": 44416,
+        "num_ngos": 45,
+        "num_volunteers": 374,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 749,
+        "donation_amount": 81948,
+        "num_ngos": 15,
+        "num_volunteers": 212,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3453,
+        "donation_amount": 83642,
+        "num_ngos": 30,
+        "num_volunteers": 27,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4563,
+        "donation_amount": 317,
+        "num_ngos": 4,
+        "num_volunteers": 382,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1412,
+        "donation_amount": 58905,
+        "num_ngos": 8,
+        "num_volunteers": 497,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3011,
+        "donation_amount": 29279,
+        "num_ngos": 12,
+        "num_volunteers": 261,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 668,
+        "donation_amount": 40071,
+        "num_ngos": 43,
+        "num_volunteers": 454,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4064,
+        "donation_amount": 85609,
+        "num_ngos": 5,
+        "num_volunteers": 229,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3711,
+        "donation_amount": 18270,
+        "num_ngos": 15,
+        "num_volunteers": 210,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3031,
+        "donation_amount": 73067,
+        "num_ngos": 49,
+        "num_volunteers": 153,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1053,
+        "donation_amount": 87872,
+        "num_ngos": 33,
+        "num_volunteers": 448,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2559,
+        "donation_amount": 82109,
+        "num_ngos": 50,
+        "num_volunteers": 206,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2114,
+        "donation_amount": 99355,
+        "num_ngos": 42,
+        "num_volunteers": 227,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2836,
+        "donation_amount": 36372,
+        "num_ngos": 10,
+        "num_volunteers": 256,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 190,
+        "donation_amount": 93065,
+        "num_ngos": 34,
+        "num_volunteers": 465,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3698,
+        "donation_amount": 99691,
+        "num_ngos": 9,
+        "num_volunteers": 495,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 940,
+        "donation_amount": 52639,
+        "num_ngos": 31,
+        "num_volunteers": 328,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3610,
+        "donation_amount": 17882,
+        "num_ngos": 33,
+        "num_volunteers": 409,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4229,
+        "donation_amount": 86076,
+        "num_ngos": 36,
+        "num_volunteers": 409,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1776,
+        "donation_amount": 93794,
+        "num_ngos": 12,
+        "num_volunteers": 124,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3627,
+        "donation_amount": 92769,
+        "num_ngos": 22,
+        "num_volunteers": 430,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2238,
+        "donation_amount": 75761,
+        "num_ngos": 27,
+        "num_volunteers": 335,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1620,
+        "donation_amount": 84384,
+        "num_ngos": 26,
+        "num_volunteers": 246,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3953,
+        "donation_amount": 5189,
+        "num_ngos": 22,
+        "num_volunteers": 25,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2750,
+        "donation_amount": 76827,
+        "num_ngos": 21,
+        "num_volunteers": 469,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2210,
+        "donation_amount": 77067,
+        "num_ngos": 10,
+        "num_volunteers": 147,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1820,
+        "donation_amount": 36186,
+        "num_ngos": 31,
+        "num_volunteers": 85,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4614,
+        "donation_amount": 25141,
+        "num_ngos": 49,
+        "num_volunteers": 498,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4671,
+        "donation_amount": 78328,
+        "num_ngos": 21,
+        "num_volunteers": 469,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2521,
+        "donation_amount": 70244,
+        "num_ngos": 10,
+        "num_volunteers": 78,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3783,
+        "donation_amount": 92761,
+        "num_ngos": 16,
+        "num_volunteers": 207,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3665,
+        "donation_amount": 96005,
+        "num_ngos": 46,
+        "num_volunteers": 348,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1593,
+        "donation_amount": 78268,
+        "num_ngos": 37,
+        "num_volunteers": 288,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2316,
+        "donation_amount": 87481,
+        "num_ngos": 36,
+        "num_volunteers": 24,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4680,
+        "donation_amount": 42919,
+        "num_ngos": 10,
+        "num_volunteers": 415,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1537,
+        "donation_amount": 16145,
+        "num_ngos": 2,
+        "num_volunteers": 62,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3884,
+        "donation_amount": 83943,
+        "num_ngos": 18,
+        "num_volunteers": 126,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2735,
+        "donation_amount": 37841,
+        "num_ngos": 43,
+        "num_volunteers": 118,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 303,
+        "donation_amount": 34941,
+        "num_ngos": 27,
+        "num_volunteers": 87,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4221,
+        "donation_amount": 53559,
+        "num_ngos": 19,
+        "num_volunteers": 173,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1767,
+        "donation_amount": 84464,
+        "num_ngos": 39,
+        "num_volunteers": 326,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3092,
+        "donation_amount": 62891,
+        "num_ngos": 15,
+        "num_volunteers": 279,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 1021,
+        "donation_amount": 84446,
+        "num_ngos": 19,
+        "num_volunteers": 221,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 370,
+        "donation_amount": 41981,
+        "num_ngos": 24,
+        "num_volunteers": 184,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4019,
+        "donation_amount": 85861,
+        "num_ngos": 3,
+        "num_volunteers": 79,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1956,
+        "donation_amount": 97403,
+        "num_ngos": 31,
+        "num_volunteers": 269,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3113,
+        "donation_amount": 40761,
+        "num_ngos": 8,
+        "num_volunteers": 446,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3384,
+        "donation_amount": 27751,
+        "num_ngos": 11,
+        "num_volunteers": 270,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 775,
+        "donation_amount": 49638,
+        "num_ngos": 30,
+        "num_volunteers": 251,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4286,
+        "donation_amount": 39416,
+        "num_ngos": 14,
+        "num_volunteers": 458,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3285,
+        "donation_amount": 23798,
+        "num_ngos": 27,
+        "num_volunteers": 261,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 818,
+        "donation_amount": 3280,
+        "num_ngos": 26,
+        "num_volunteers": 71,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4989,
+        "donation_amount": 35164,
+        "num_ngos": 2,
+        "num_volunteers": 450,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3294,
+        "donation_amount": 97964,
+        "num_ngos": 39,
+        "num_volunteers": 191,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3104,
+        "donation_amount": 32242,
+        "num_ngos": 23,
+        "num_volunteers": 109,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3687,
+        "donation_amount": 73504,
+        "num_ngos": 30,
+        "num_volunteers": 279,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2002,
+        "donation_amount": 16241,
+        "num_ngos": 22,
+        "num_volunteers": 375,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1656,
+        "donation_amount": 81093,
+        "num_ngos": 43,
+        "num_volunteers": 32,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2309,
+        "donation_amount": 61022,
+        "num_ngos": 48,
+        "num_volunteers": 55,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3369,
+        "donation_amount": 19489,
+        "num_ngos": 19,
+        "num_volunteers": 329,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2531,
+        "donation_amount": 17762,
+        "num_ngos": 5,
+        "num_volunteers": 128,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3966,
+        "donation_amount": 65454,
+        "num_ngos": 4,
+        "num_volunteers": 60,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4375,
+        "donation_amount": 99598,
+        "num_ngos": 12,
+        "num_volunteers": 56,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 698,
+        "donation_amount": 10266,
+        "num_ngos": 30,
+        "num_volunteers": 216,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3854,
+        "donation_amount": 52879,
+        "num_ngos": 41,
+        "num_volunteers": 307,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3385,
+        "donation_amount": 94972,
+        "num_ngos": 31,
+        "num_volunteers": 213,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4317,
+        "donation_amount": 89763,
+        "num_ngos": 31,
+        "num_volunteers": 29,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2666,
+        "donation_amount": 87789,
+        "num_ngos": 20,
+        "num_volunteers": 356,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3094,
+        "donation_amount": 23278,
+        "num_ngos": 37,
+        "num_volunteers": 297,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2547,
+        "donation_amount": 95934,
+        "num_ngos": 29,
+        "num_volunteers": 418,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 772,
+        "donation_amount": 49414,
+        "num_ngos": 1,
+        "num_volunteers": 106,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 690,
+        "donation_amount": 36431,
+        "num_ngos": 44,
+        "num_volunteers": 194,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3345,
+        "donation_amount": 59540,
+        "num_ngos": 9,
+        "num_volunteers": 125,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2003,
+        "donation_amount": 34033,
+        "num_ngos": 10,
+        "num_volunteers": 108,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1981,
+        "donation_amount": 72318,
+        "num_ngos": 48,
+        "num_volunteers": 313,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1849,
+        "donation_amount": 65720,
+        "num_ngos": 15,
+        "num_volunteers": 90,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1867,
+        "donation_amount": 66615,
+        "num_ngos": 49,
+        "num_volunteers": 57,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3704,
+        "donation_amount": 63533,
+        "num_ngos": 35,
+        "num_volunteers": 415,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 743,
+        "donation_amount": 57052,
+        "num_ngos": 31,
+        "num_volunteers": 232,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3137,
+        "donation_amount": 90372,
+        "num_ngos": 14,
+        "num_volunteers": 37,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1123,
+        "donation_amount": 50883,
+        "num_ngos": 38,
+        "num_volunteers": 293,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 970,
+        "donation_amount": 88154,
+        "num_ngos": 18,
+        "num_volunteers": 274,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4148,
+        "donation_amount": 11075,
+        "num_ngos": 1,
+        "num_volunteers": 200,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2129,
+        "donation_amount": 6399,
+        "num_ngos": 43,
+        "num_volunteers": 318,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2107,
+        "donation_amount": 50760,
+        "num_ngos": 33,
+        "num_volunteers": 368,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4676,
+        "donation_amount": 18199,
+        "num_ngos": 38,
+        "num_volunteers": 120,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2504,
+        "donation_amount": 94816,
+        "num_ngos": 10,
+        "num_volunteers": 333,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3969,
+        "donation_amount": 20053,
+        "num_ngos": 8,
+        "num_volunteers": 30,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3368,
+        "donation_amount": 77515,
+        "num_ngos": 4,
+        "num_volunteers": 376,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1378,
+        "donation_amount": 70012,
+        "num_ngos": 49,
+        "num_volunteers": 441,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 433,
+        "donation_amount": 96709,
+        "num_ngos": 3,
+        "num_volunteers": 44,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1840,
+        "donation_amount": 45643,
+        "num_ngos": 49,
+        "num_volunteers": 297,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4744,
+        "donation_amount": 57759,
+        "num_ngos": 43,
+        "num_volunteers": 303,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3669,
+        "donation_amount": 91901,
+        "num_ngos": 24,
+        "num_volunteers": 242,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3373,
+        "donation_amount": 76496,
+        "num_ngos": 38,
+        "num_volunteers": 458,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 772,
+        "donation_amount": 21935,
+        "num_ngos": 11,
+        "num_volunteers": 332,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 511,
+        "donation_amount": 98561,
+        "num_ngos": 4,
+        "num_volunteers": 354,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3726,
+        "donation_amount": 70527,
+        "num_ngos": 11,
+        "num_volunteers": 237,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4614,
+        "donation_amount": 63974,
+        "num_ngos": 24,
+        "num_volunteers": 180,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4498,
+        "donation_amount": 28032,
+        "num_ngos": 38,
+        "num_volunteers": 346,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4024,
+        "donation_amount": 16865,
+        "num_ngos": 16,
+        "num_volunteers": 460,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2649,
+        "donation_amount": 30188,
+        "num_ngos": 9,
+        "num_volunteers": 406,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3638,
+        "donation_amount": 47724,
+        "num_ngos": 20,
+        "num_volunteers": 208,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3238,
+        "donation_amount": 44578,
+        "num_ngos": 35,
+        "num_volunteers": 476,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 743,
+        "donation_amount": 30945,
+        "num_ngos": 19,
+        "num_volunteers": 25,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3983,
+        "donation_amount": 25030,
+        "num_ngos": 6,
+        "num_volunteers": 341,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2304,
+        "donation_amount": 59928,
+        "num_ngos": 15,
+        "num_volunteers": 464,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3048,
+        "donation_amount": 17573,
+        "num_ngos": 22,
+        "num_volunteers": 459,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1337,
+        "donation_amount": 77614,
+        "num_ngos": 9,
+        "num_volunteers": 368,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 351,
+        "donation_amount": 85578,
+        "num_ngos": 3,
+        "num_volunteers": 437,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2269,
+        "donation_amount": 54527,
+        "num_ngos": 42,
+        "num_volunteers": 211,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 4096,
+        "donation_amount": 43476,
+        "num_ngos": 36,
+        "num_volunteers": 455,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2604,
+        "donation_amount": 99032,
+        "num_ngos": 10,
+        "num_volunteers": 135,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4199,
+        "donation_amount": 11614,
+        "num_ngos": 30,
+        "num_volunteers": 124,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2668,
+        "donation_amount": 13907,
+        "num_ngos": 10,
+        "num_volunteers": 112,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1920,
+        "donation_amount": 62020,
+        "num_ngos": 3,
+        "num_volunteers": 72,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4156,
+        "donation_amount": 14551,
+        "num_ngos": 19,
+        "num_volunteers": 91,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4600,
+        "donation_amount": 16921,
+        "num_ngos": 50,
+        "num_volunteers": 156,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 2053,
+        "donation_amount": 41303,
+        "num_ngos": 27,
+        "num_volunteers": 350,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1833,
+        "donation_amount": 6970,
+        "num_ngos": 6,
+        "num_volunteers": 378,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3962,
+        "donation_amount": 86371,
+        "num_ngos": 2,
+        "num_volunteers": 314,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 2643,
+        "donation_amount": 93767,
+        "num_ngos": 31,
+        "num_volunteers": 47,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4044,
+        "donation_amount": 48895,
+        "num_ngos": 45,
+        "num_volunteers": 89,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 578,
+        "donation_amount": 14886,
+        "num_ngos": 42,
+        "num_volunteers": 325,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 4817,
+        "donation_amount": 17038,
+        "num_ngos": 37,
+        "num_volunteers": 461,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 183,
+        "donation_amount": 47805,
+        "num_ngos": 15,
+        "num_volunteers": 462,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 581,
+        "donation_amount": 97817,
+        "num_ngos": 8,
+        "num_volunteers": 72,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 1065,
+        "donation_amount": 66651,
+        "num_ngos": 24,
+        "num_volunteers": 468,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2175,
+        "donation_amount": 31275,
+        "num_ngos": 20,
+        "num_volunteers": 231,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3046,
+        "donation_amount": 25591,
+        "num_ngos": 24,
+        "num_volunteers": 405,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3907,
+        "donation_amount": 13272,
+        "num_ngos": 19,
+        "num_volunteers": 82,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1169,
+        "donation_amount": 83144,
+        "num_ngos": 44,
+        "num_volunteers": 312,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3341,
+        "donation_amount": 46670,
+        "num_ngos": 3,
+        "num_volunteers": 331,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 2,
+        "affected_population": 298,
+        "donation_amount": 72719,
+        "num_ngos": 34,
+        "num_volunteers": 81,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 2149,
+        "donation_amount": 55652,
+        "num_ngos": 8,
+        "num_volunteers": 380,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 1,
+        "affected_population": 3584,
+        "donation_amount": 76451,
+        "num_ngos": 47,
+        "num_volunteers": 104,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 3923,
+        "donation_amount": 30011,
+        "num_ngos": 15,
+        "num_volunteers": 285,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3784,
+        "donation_amount": 25034,
+        "num_ngos": 1,
+        "num_volunteers": 412,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 3291,
+        "donation_amount": 73833,
+        "num_ngos": 43,
+        "num_volunteers": 166,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 3,
+        "affected_population": 411,
+        "donation_amount": 548,
+        "num_ngos": 9,
+        "num_volunteers": 359,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 2,
+        "affected_population": 3794,
+        "donation_amount": 8819,
+        "num_ngos": 39,
+        "num_volunteers": 29,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 2,
+        "affected_population": 400,
+        "donation_amount": 68183,
+        "num_ngos": 17,
+        "num_volunteers": 418,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 0,
+        "affected_population": 2251,
+        "donation_amount": 4079,
+        "num_ngos": 35,
+        "num_volunteers": 196,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 1,
+        "affected_population": 4663,
+        "donation_amount": 32032,
+        "num_ngos": 45,
+        "num_volunteers": 296,
+        "actual_severity": 1
+    },
+    {
+        "urgency": 3,
+        "affected_population": 1306,
+        "donation_amount": 21279,
+        "num_ngos": 47,
+        "num_volunteers": 352,
+        "actual_severity": 2
+    },
+    {
+        "urgency": 0,
+        "affected_population": 1620,
+        "donation_amount": 82418,
+        "num_ngos": 20,
+        "num_volunteers": 60,
+        "actual_severity": 0
+    },
+    {
+        "urgency": 3,
+        "affected_population": 4053,
+        "donation_amount": 68170,
+        "num_ngos": 10,
+        "num_volunteers": 353,
+        "actual_severity": 2
+    }
+]
