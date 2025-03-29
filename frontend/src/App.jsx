@@ -12,6 +12,7 @@ import Guide from './pages/Guide';
 import { AuthProvider } from './contexts/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
 import Severity from './pages/Severity';
+import Donations from './pages/Donations';
 
 const App = () => {
   return (
@@ -22,7 +23,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/guide" element={<Guide />} />
           <Route path="/donate" element={<DonatePage />} />
-          
+
           {/* Protected Routes */}
           <Route path="/map" element={
             <ProtectedRoute>
@@ -42,9 +43,9 @@ const App = () => {
 
           {/* Auth Routes */}
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/guide" element={<Guide />} />
           <Route path="/signup" element={<SignupPage />} />
           <Route path="/disasters" element={<Severity />} />
+          <Route path='/donations' element={<Donations />} />
         </Routes>
       </AuthProvider>
     </Router>

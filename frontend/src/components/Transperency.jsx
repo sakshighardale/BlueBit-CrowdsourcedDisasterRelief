@@ -1,27 +1,20 @@
 import React, { useState, useEffect } from 'react';
-import { FiDollarSign, FiPackage, FiUsers, FiCheckCircle, FiGlobe, FiRefreshCw } from 'react-icons/fi';
-import dynamic from 'next/dynamic';
+import { FiDollarSign, FiPackage, FiUsers, FiCheckCircle, FiRefreshCw } from 'react-icons/fi';
+import { Pie } from 'react-chartjs-2';
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 
-// Correct dynamic imports for chart libraries
-const Chart = dynamic(() => import('react-chartjs-2').then((mod) => ({
-  Pie: mod.Pie,
-  Sankey: mod.Sankey || (() => null), // Fallback if Sankey isn't available
-})), { ssr: false });
-
-const Globe = dynamic(() => import('react-globe.gl'), { 
-  ssr: false,
-  loading: () => <div className="h-[500px] flex items-center justify-center">Loading globe...</div>
-});
+// Register ChartJS components
+ChartJS.register(ArcElement, Tooltip, Legend);
 
 const TransparencyDashboard = () => {
   const [lastUpdated, setLastUpdated] = useState(new Date());
   const [isLoading, setIsLoading] = useState(false);
+  const [globeLoaded, setGlobeLoaded] = useState(false);
   
+  // Sample data
   const dashboardData = {
     totalFunds: 1250000,
     utilizedFunds: 875000,
-    aidPackages: 42,
-    deliveredPackages: 31,
     beneficiaries: 12500,
     completedOperations: 8,
     ongoingOperations: 5,
@@ -51,89 +44,80 @@ const TransparencyDashboard = () => {
     return () => clearInterval(interval);
   }, []);
 
+  // Lazy load the globe component
+  useEffect(() => {
+    import('react-globe.gl').then(() => {
+      setGlobeLoaded(true);
+    });
+  }, []);
+
+  // Chart data
   const fundAllocationData = {
     labels: ['Emergency Relief', 'Medical Aid', 'Infrastructure', 'Admin'],
     datasets: [{
       data: Object.values(dashboardData.fundAllocation),
-      backgroundColor: [
-        '#3B82F6', '#10B981', '#F59E0B', '#EF4444'
-      ],
+      backgroundColor: ['#3B82F6', '#10B981', '#F59E0B', '#EF4444'],
       borderWidth: 0
     }]
   };
 
-  const sankeyData = {
-    nodes: [
-      { name: 'Donations', color: '#3B82F6' },
-      { name: 'Emergency Relief', color: '#10B981' },
-      { name: 'Medical Aid', color: '#F59E0B' },
-      { name: 'Infrastructure', color: '#EF4444' },
-      { name: 'Admin', color: '#8B5CF6' },
-      { name: 'Field Operations', color: '#EC4899' }
-    ],
-    links: [
-      { source: 0, target: 1, value: 45 },
-      { source: 0, target: 2, value: 25 },
-      { source: 0, target: 3, value: 20 },
-      { source: 0, target: 4, value: 10 },
-      { source: 1, target: 5, value: 45 },
-      { source: 2, target: 5, value: 25 }
-    ]
-  };
-
-  // Helper components moved outside main component
-  const MetricCard = ({ icon, title, value, change, glowColor }) => {
-    const glowClasses = {
-      blue: 'shadow-blue-200/50 hover:shadow-blue-200',
-      green: 'shadow-green-200/50 hover:shadow-green-200',
-      orange: 'shadow-orange-200/50 hover:shadow-orange-200',
-      purple: 'shadow-purple-200/50 hover:shadow-purple-200'
+  // Metric Card Component
+  const MetricCard = ({ icon, title, value, change, color }) => {
+    const colorClasses = {
+      blue: 'text-blue-500 bg-blue-100',
+      green: 'text-green-500 bg-green-100',
+      orange: 'text-orange-500 bg-orange-100',
+      purple: 'text-purple-500 bg-purple-100'
     };
 
     return (
-      <div className={`bg-white rounded-xl p-6 shadow-lg ${glowClasses[glowColor]} hover:shadow-xl transition-all`}>
-        <div className="flex items-center gap-3 mb-4">
-          <div className={`p-2 rounded-lg bg-opacity-20 bg-${glowColor}-100`}>
+      <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow">
+        <div className="flex items-center gap-3 mb-3">
+          <div className={`p-2 rounded-lg ${colorClasses[color]}`}>
             {icon}
           </div>
-          <h3 className="text-lg font-medium text-gray-700">{title}</h3>
+          <h3 className="text-md font-medium text-gray-700">{title}</h3>
         </div>
-        <p className="text-3xl font-bold mb-2">{value}</p>
+        <p className="text-2xl font-bold mb-1">{value}</p>
         <p className="text-sm text-gray-500">{change}</p>
       </div>
     );
   };
 
-  const TrustBadge = ({ title, description, icon }) => (
-    <div className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-all">
-      <div className="text-3xl mb-3">{icon}</div>
-      <h3 className="font-semibold mb-2">{title}</h3>
-      <p className="text-gray-600">{description}</p>
-    </div>
-  );
+  // Shipment Status Component
+  const ShipmentStatus = ({ destination, status, items }) => {
+    const statusClasses = {
+      delivered: 'bg-green-100 text-green-800',
+      transit: 'bg-yellow-100 text-yellow-800',
+      pending: 'bg-red-100 text-red-800'
+    };
 
-  const ImpactStory = ({ image, title, location, excerpt, link }) => (
-    <div className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-all">
-      <img src={image} alt={title} className="w-full h-48 object-cover" />
-      <div className="p-5">
-        <div className="flex justify-between items-start mb-2">
-          <h3 className="font-semibold">{title}</h3>
-          <span className="text-sm text-gray-500">{location}</span>
+    return (
+      <div className="border rounded-lg p-3 hover:shadow-sm transition-all">
+        <div className="flex justify-between items-start">
+          <h3 className="font-medium">{destination}</h3>
+          <span className={`px-2 py-1 rounded-full text-xs ${statusClasses[status]}`}>
+            {status}
+          </span>
         </div>
-        <p className="text-gray-600 mb-4">{excerpt}</p>
-        <a href={link} className="text-blue-500 hover:underline">Read full story →</a>
+        <p className="text-gray-600 mt-1 text-sm">{items}</p>
       </div>
-    </div>
+    );
+  };
+
+  // Globe component (only rendered when loaded)
+  const GlobeComponent = globeLoaded ? React.lazy(() => import('react-globe.gl')) : () => (
+    <div className="h-[500px] flex items-center justify-center">Loading globe...</div>
   );
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 p-6">
-      <div className="max-w-7xl mx-auto">
+    <div className="min-h-screen bg-gray-50 p-4">
+      <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <div className="flex justify-between items-center mb-8">
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
           <div>
-            <h1 className="text-4xl font-bold text-gray-800">Transparency Dashboard</h1>
-            <p className="text-gray-600">Every penny, every step - in real time</p>
+            <h1 className="text-2xl sm:text-3xl font-bold text-gray-800">Transparency Dashboard</h1>
+            <p className="text-gray-600">Track our relief efforts in real-time</p>
           </div>
           <button 
             onClick={refreshData}
@@ -145,183 +129,152 @@ const TransparencyDashboard = () => {
         </div>
 
         {/* Last updated */}
-        <div className="flex items-center gap-2 text-sm text-gray-500 mb-8">
-          <div className="w-3 h-3 rounded-full bg-green-400 animate-pulse"></div>
+        <div className="flex items-center gap-2 text-sm text-gray-500 mb-6">
+          <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></div>
           Last updated: {lastUpdated.toLocaleString()}
         </div>
 
         {/* Key Metrics */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
           <MetricCard 
-            icon={<FiDollarSign className="text-blue-500" size={24} />}
+            icon={<FiDollarSign size={20} />}
             title="Total Funds"
             value={`$${(dashboardData.totalFunds / 1000000).toFixed(2)}M`}
             change="+12% this month"
-            glowColor="blue"
+            color="blue"
           />
           <MetricCard 
-            icon={<FiPackage className="text-green-500" size={24} />}
+            icon={<FiPackage size={20} />}
             title="Funds Utilized"
             value={`${Math.round((dashboardData.utilizedFunds / dashboardData.totalFunds) * 100)}%`}
             change="87% deployed"
-            glowColor="green"
+            color="green"
           />
           <MetricCard 
-            icon={<FiUsers className="text-orange-500" size={24} />}
+            icon={<FiUsers size={20} />}
             title="Lives Impacted"
             value={dashboardData.beneficiaries.toLocaleString()}
             change="320 families housed"
-            glowColor="orange"
+            color="orange"
           />
           <MetricCard 
-            icon={<FiCheckCircle className="text-purple-500" size={24} />}
+            icon={<FiCheckCircle size={20} />}
             title="Completed Ops"
             value={dashboardData.completedOperations}
-            change={`${dashboardData.ongoingOperations} in progress`}
-            glowColor="purple"
+            change="5 in progress"
+            color="purple"
           />
         </div>
 
-        {/* Fund Visualization Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-          {/* Money Flow */}
-          <div className="bg-white rounded-xl shadow-lg p-6">
-            <h2 className="text-xl font-semibold mb-4">Money in Motion</h2>
-            <div className="h-64">
-              {Chart?.Sankey ? (
-                <Chart.Sankey 
-                  data={sankeyData}
-                  options={{
-                    maintainAspectRatio: false,
-                    color: (ctx) => ctx.dataset?.backgroundColor || sankeyData.nodes[ctx.dataIndex]?.color,
-                  }}
-                />
-              ) : (
-                <div className="h-full flex items-center justify-center text-gray-500">
-                  Sankey chart not available
-                </div>
-              )}
-            </div>
-            <p className="text-sm text-gray-500 mt-2">Hover to trace fund pathways</p>
-          </div>
-
-          {/* Fund Allocation */}
-          <div className="bg-white rounded-xl shadow-lg p-6">
-            <h2 className="text-xl font-semibold mb-4">Fund Allocation</h2>
-            <div className="h-64">
-              {Chart?.Pie ? (
-                <Chart.Pie 
-                  data={fundAllocationData}
-                  options={{
-                    maintainAspectRatio: false,
-                    plugins: {
-                      legend: { position: 'right' },
-                      tooltip: {
-                        callbacks: {
-                          label: (context) => `${context.label}: ${context.raw}% ($${Math.round(dashboardData.totalFunds * context.raw / 100).toLocaleString()})`
-                        }
-                      }
+        {/* Fund Allocation */}
+        <div className="bg-white rounded-lg shadow-sm p-4 mb-8">
+          <h2 className="text-lg font-semibold mb-4">Fund Allocation</h2>
+          <div className="h-64">
+            <Pie 
+              data={fundAllocationData}
+              options={{
+                maintainAspectRatio: false,
+                plugins: {
+                  legend: { position: 'right' },
+                  tooltip: {
+                    callbacks: {
+                      label: (context) => `${context.label}: ${context.raw}% ($${Math.round(dashboardData.totalFunds * context.raw / 100).toLocaleString()})`
                     }
-                  }}
-                />
-              ) : (
-                <div className="h-full flex items-center justify-center text-gray-500">
-                  Pie chart not available
-                </div>
-              )}
-            </div>
+                  }
+                }
+              }}
+            />
           </div>
         </div>
 
         {/* Global Aid Tracking */}
-        <div className="bg-white rounded-xl shadow-lg p-6 mb-12">
-          <div className="flex justify-between items-center mb-6">
-            <h2 className="text-xl font-semibold">Global Aid Network</h2>
-            <div className="flex gap-2">
-              <span className="flex items-center gap-1 text-sm"><span className="w-3 h-3 rounded-full bg-green-400"></span> Delivered</span>
-              <span className="flex items-center gap-1 text-sm"><span className="w-3 h-3 rounded-full bg-yellow-400"></span> In Transit</span>
-              <span className="flex items-center gap-1 text-sm"><span className="w-3 h-3 rounded-full bg-red-400"></span> Pending</span>
+        <div className="bg-white rounded-lg shadow-sm p-4 mb-8">
+          <div className="flex justify-between items-center mb-4">
+            <h2 className="text-lg font-semibold">Global Aid Network</h2>
+            <div className="flex gap-2 text-xs">
+              <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-green-400"></span> Delivered</span>
+              <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-yellow-400"></span> Transit</span>
+              <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-red-400"></span> Pending</span>
             </div>
           </div>
           
           <div className="h-[500px] relative">
-            <Globe
-              globeImageUrl="//unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
-              backgroundColor="rgba(0,0,0,0)"
-              arcsData={dashboardData.shipments.map(ship => ({
-                startLat: 40.7128,
-                startLng: -74.0060,
-                endLat: ship.lat,
-                endLng: ship.lng,
-                color: ship.status === 'delivered' ? ['rgba(16, 185, 129, 0.7)'] : 
-                       ship.status === 'transit' ? ['rgba(234, 179, 8, 0.7)'] : ['rgba(239, 68, 68, 0.7)']
-              }))}
-              arcColor={'color'}
-              arcDashLength={() => Math.random() * 0.2 + 0.1}
-              arcDashGap={() => Math.random() * 0.2 + 0.1}
-              arcDashAnimateTime={() => Math.random() * 4000 + 500}
-            />
+            <React.Suspense fallback={<div className="h-full flex items-center justify-center">Loading globe...</div>}>
+              {globeLoaded && (
+                <GlobeComponent
+                  globeImageUrl="//unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
+                  backgroundColor="rgba(0,0,0,0)"
+                  arcsData={dashboardData.shipments.map(ship => ({
+                    startLat: 40.7128,
+                    startLng: -74.0060,
+                    endLat: ship.lat,
+                    endLng: ship.lng,
+                    color: ship.status === 'delivered' ? ['rgba(16, 185, 129, 0.7)'] : 
+                           ship.status === 'transit' ? ['rgba(234, 179, 8, 0.7)'] : ['rgba(239, 68, 68, 0.7)']
+                  }))}
+                  arcColor={'color'}
+                  arcDashLength={() => Math.random() * 0.2 + 0.1}
+                  arcDashGap={() => Math.random() * 0.2 + 0.1}
+                  arcDashAnimateTime={() => Math.random() * 4000 + 500}
+                />
+              )}
+            </React.Suspense>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mt-4">
             {dashboardData.shipments.map((shipment) => (
-              <div key={shipment.id} className="border rounded-lg p-4 hover:shadow-md transition-all">
-                <div className="flex justify-between items-start">
-                  <h3 className="font-medium">{shipment.destination}</h3>
-                  <span className={`px-2 py-1 rounded-full text-xs ${
-                    shipment.status === 'delivered' ? 'bg-green-100 text-green-800' :
-                    shipment.status === 'transit' ? 'bg-yellow-100 text-yellow-800' : 'bg-red-100 text-red-800'
-                  }`}>
-                    {shipment.status}
-                  </span>
-                </div>
-                <p className="text-gray-600 mt-2">{shipment.items}</p>
-                <button className="mt-3 text-sm text-blue-500 hover:underline">View documentation</button>
-              </div>
+              <ShipmentStatus
+                key={shipment.id}
+                destination={shipment.destination}
+                status={shipment.status}
+                items={shipment.items}
+              />
             ))}
           </div>
         </div>
 
         {/* Trust Indicators */}
-        <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl shadow-lg p-8 mb-12">
-          <h2 className="text-xl font-semibold mb-6">Verified Impact</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <TrustBadge 
-              title="Financial Audit"
-              description="100% compliant with international standards"
-              icon="📊"
-            />
-            <TrustBadge 
-              title="Field Verification"
-              description="3rd party validation of all shipments"
-              icon="🔍"
-            />
-            <TrustBadge 
-              title="Donor Transparency"
-              description="See exactly how your donation was used"
-              icon="👁️"
-            />
+        <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-lg font-semibold mb-4">Verified Impact</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-all">
+              <div className="text-3xl mb-2">📊</div>
+              <h3 className="font-semibold mb-1">Financial Audit</h3>
+              <p className="text-gray-600 text-sm">100% compliant with international standards</p>
+            </div>
+            <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-all">
+              <div className="text-3xl mb-2">🔍</div>
+              <h3 className="font-semibold mb-1">Field Verification</h3>
+              <p className="text-gray-600 text-sm">3rd party validation of all shipments</p>
+            </div>
+            <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-all">
+              <div className="text-3xl mb-2">👁️</div>
+              <h3 className="font-semibold mb-1">Donor Transparency</h3>
+              <p className="text-gray-600 text-sm">See exactly how your donation was used</p>
+            </div>
           </div>
         </div>
 
         {/* Impact Stories */}
-        <div className="bg-white rounded-xl shadow-lg p-6">
-          <h2 className="text-xl font-semibold mb-6">Stories of Impact</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <ImpactStory 
-              image="https://source.unsplash.com/random/600x400/?refugee,help"
-              title="Maria's New Beginning"
-              location="Quito, Ecuador"
-              excerpt="After losing her home in the earthquake, Maria received emergency shelter and school supplies for her children."
-              link="#"
-            />
-            <ImpactStory 
-              image="https://source.unsplash.com/random/600x400/?clinic,africa"
-              title="Clinic in Kenya"
-              location="Nairobi, Kenya"
-              excerpt="Our medical truck delivered supplies to a rural clinic serving 500+ patients monthly."
-              link="#"
-            />
+        <div className="bg-white rounded-lg shadow-sm p-4">
+          <h2 className="text-lg font-semibold mb-4">Impact Stories</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="border rounded-lg overflow-hidden hover:shadow-md transition-all">
+              <div className="h-40 bg-blue-100"></div>
+              <div className="p-4">
+                <h3 className="font-medium mb-1">Rebuilding After the Earthquake</h3>
+                <p className="text-gray-600 text-sm mb-2">Nepal received 320 tents for displaced families</p>
+                <a href="#" className="text-blue-500 text-sm hover:underline">Read more →</a>
+              </div>
+            </div>
+            <div className="border rounded-lg overflow-hidden hover:shadow-md transition-all">
+              <div className="h-40 bg-green-100"></div>
+              <div className="p-4">
+                <h3 className="font-medium mb-1">Medical Aid Delivery</h3>
+                <p className="text-gray-600 text-sm mb-2">5 medical trucks sent to Ukraine frontline</p>
+                <a href="#" className="text-blue-500 text-sm hover:underline">Read more →</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
