@@ -65,7 +65,7 @@ const Report = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="min-h-screen bg-gray-50"
+      className="min-h-screen bg-gray-100"
       >
       <Navbar />
       <div className="container mx-auto px-4 py-8">
