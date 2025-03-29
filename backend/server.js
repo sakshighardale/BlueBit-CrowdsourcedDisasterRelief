@@ -7,8 +7,8 @@ import { createServer } from "http";
 import { Server } from "socket.io";
 import disasterRoutes from "./routes/disasterRoutes.js";
 import authRoutes from "./routes/authRoutes.js";
-import mlRoutes from "./routes/mlRoutes.js"
-
+import mlRoutes from "./routes/mlRoutes.js";
+import donateRoute from "./routes/donationRoutes.js";
 // Load environment variables
 dotenv.config();
 
@@ -18,21 +18,23 @@ const io = new Server(httpServer, {
   cors: {
     origin: process.env.CLIENT_URL,
     methods: ["GET", "POST"],
-    credentials: true
-  }
+    credentials: true,
+  },
 });
 
 // Middleware
 app.use(express.json());
 app.use(cookieParser()); // Add cookie parser middleware
-app.use(cors({
-  origin: process.env.CLIENT_URL, // Replace with your frontend URL
-  credentials: true // Allow credentials (cookies)
-}));
+app.use(
+  cors({
+    origin: process.env.CLIENT_URL, // Replace with your frontend URL
+    credentials: true, // Allow credentials (cookies)
+  })
+);
 
-app.use('/api/auth', authRoutes); // Add this line
+app.use("/api/auth", authRoutes); // Add this line
 app.use("/api/disasters", disasterRoutes);
-
+app.use("/api/donate", donateRoute);
 
 // MongoDB Connection
 mongoose

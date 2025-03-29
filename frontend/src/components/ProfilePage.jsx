@@ -19,16 +19,16 @@ import ProgressBar from "react-bootstrap/ProgressBar";
 const ProfilePage = () => {
   // State for profile data
   const [profile, setProfile] = useState({
-    name: "John Doe",
-    username: "@johndoe",
-    email: "johndoe@example.com",
-    phone: "+123 456 7890",
-    address: "123 Street, City, Country",
+    name: "Aarav Patel",
+    username: "@aaravpatel",
+    email: "aaravpatel@example.com",
+    phone: "+91 8990765710",
+    address: "123 Street, City, India",
     donations: 15,
     socialMedia: {
-      twitter: "https://twitter.com/johndoe",
-      linkedin: "https://linkedin.com/in/johndoe",
-      github: "https://github.com/johndoe",
+      twitter: "https://twitter.com/aaravpatel",
+      linkedin: "https://linkedin.com/in/aaravpatel",
+      github: "https://github.com/aaravpatel",
     },
     profilePic: null, // Add profile picture to the profile state
   });
@@ -132,14 +132,20 @@ const ProfilePage = () => {
                 className="text-gray-500 dark:text-gray-400 bg-transparent border-b border-gray-600 focus:outline-none"
               />
             ) : (
-              <p className="text-gray-500 dark:text-gray-400">{profile.username}</p>
+              <p className="text-gray-500 dark:text-gray-400">
+                {profile.username}
+              </p>
             )}
           </div>
           <button
             onClick={isEditing ? handleSave : () => setIsEditing(true)}
             className="ml-auto bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center transition duration-300"
           >
-            {isEditing ? <FaSave className="mr-2" /> : <FaEdit className="mr-2" />}
+            {isEditing ? (
+              <FaSave className="mr-2" />
+            ) : (
+              <FaEdit className="mr-2" />
+            )}
             {isEditing ? "Save Profile" : "Edit Profile"}
           </button>
         </div>
@@ -192,11 +198,20 @@ const ProfilePage = () => {
           </div>
         </div>
         <div className="mt-6">
-          <h3 className="text-xl font-semibold text-gray-800  mb-3">Donation Progress</h3>
-          <ProgressBar now={60} label={`${60}%`} className="h-3" variant="success" />
+          <h3 className="text-xl font-semibold text-gray-800  mb-3">
+            Donation Progress
+          </h3>
+          <ProgressBar
+            now={60}
+            label={`${60}%`}
+            className="h-3"
+            variant="success"
+          />
         </div>
         <div className="mt-6">
-          <h3 className="text-xl font-semibold text-gray-800 mb-3">Social Media</h3>
+          <h3 className="text-xl font-semibold text-gray-800 mb-3">
+            Social Media
+          </h3>
           <div className="flex space-x-4">
             {isEditing ? (
               <>
@@ -247,12 +262,16 @@ const ProfilePage = () => {
           </div>
         </div>
         <div className="mt-6">
-          <h3 className="text-xl font-semibold text-gray-800 mb-3">Recent Activity</h3>
+          <h3 className="text-xl font-semibold text-gray-800 mb-3">
+            Recent Activity
+          </h3>
           <ul className="space-y-3">
             <li className="bg-gradient-to-r from-purple-500 to-pink-500 p-4 rounded-lg text-white hover:shadow-lg transition-shadow duration-300 flex items-center">
               <FaDonate className="text-2xl mr-3" />
               <div>
-                <p className="font-semibold">Donated $50 to Cyclone affected rescue mission</p>
+                <p className="font-semibold">
+                  Donated $50 to Cyclone affected rescue mission
+                </p>
                 <p className="text-sm opacity-80">2 days ago</p>
               </div>
             </li>
