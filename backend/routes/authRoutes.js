@@ -31,9 +31,45 @@ router.post("/login", async (req, res) => {
     const token = jwt.sign({ userId: user._id }, "secretkey", {
       expiresIn: "1h",
     });
-    res.json({ token, userId: user._id, name: user.name });
+
+    // Set cookie instead of sending token in response body
+    res.cookie("token", token, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "strict",
+      maxAge: 3600000, // 1 hour
+    });
+
+    res.json({ user: { id: user._id, name: user.name, email: user.email } });
   } catch (error) {
     res.status(500).json({ error: "Server error" });
+  }
+});
+
+
+
+// Ensure logout route clears cookie properly
+router.post("/logout", (req, res) => {
+  res.clearCookie("token", {
+    httpOnly: true,
+    secure: process.env.NODE_ENV === "production",
+    sameSite: "strict"
+  });
+  res.json({ message: "Logged out successfully" });
+});
+
+router.get("/me", async (req, res) => {
+  try {
+    const token = req.cookies.token; 
+    if (!token) return res.status(401).json({ error: "Unauthorized" });
+
+    const decoded = jwt.verify(token, "secretkey");
+    const user = await User.findById(decoded.userId).select("-password");
+    
+    if (!user) return res.status(404).json({ error: "User not found" });
+    res.json(user);
+  } catch (error) {
+    res.status(401).json({ error: "Invalid token" });
   }
 });
 

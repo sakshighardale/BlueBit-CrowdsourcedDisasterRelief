@@ -3,6 +3,8 @@ import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLock, faUser, faRightToBracket } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../contexts/AuthContext';
+
 
 const AuthForm = ({ isLogin = true }) => {
   const navigate = useNavigate();
@@ -13,25 +15,61 @@ const AuthForm = ({ isLogin = true }) => {
     confirmPassword: ''
   });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission
-    // if (isLogin) {
-    //   console.log('Logging in with:', formData.email, formData.password);
-    // } else {
-    //   console.log('Signing up with:', formData);
-    // }
-    //it is just frontend implementation so redirect to map page
+
+  const { login, register } = useAuth();
+  const [error, setError] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+// Update handleSubmit function
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  setError('');
+  setIsSubmitting(true);
+
+  try {
+    if (!isLogin) {
+      // Add password confirmation check
+      if (formData.password !== formData.confirmPassword) {
+        throw new Error("Passwords don't match");
+      }
+      
+      await register({
+        name: formData.name,
+        email: formData.email,
+        password: formData.password
+      });
+    } else {
+      await login({
+        email: formData.email,
+        password: formData.password
+      });
+    }
+    
+    // Clear form after successful submission
     setFormData({
       email: '',
       password: '',
       name: '',
       confirmPassword: ''
     });
+    
+  } catch (err) {
+    setError(err.message);
+  } finally {
+    setIsSubmitting(false);
+  }
+};
 
-    // Redirect to map page
-    navigate('/map');
-  };
+// Add error display section (inside return statement)
+{error && (
+  <motion.div
+    initial={{ opacity: 0, y: -10 }}
+    animate={{ opacity: 1, y: 0 }}
+    className="text-red-500 mb-4 text-center text-sm"
+  >
+    {error}
+  </motion.div>
+)}
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -154,14 +192,19 @@ const AuthForm = ({ isLogin = true }) => {
             </motion.div>
           )}
 
-          <motion.button
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
-            type="submit"
-            className="w-full bg-gradient-to-r from-purple-600 to-indigo-600 text-white py-3 rounded-lg font-semibold hover:shadow-lg transition-all"
-          >
-            {isLogin ? 'Sign In' : 'Create Account'}
-          </motion.button>
+<motion.button
+    // ...
+    disabled={isSubmitting}
+  >
+    {isSubmitting ? (
+      <div className="flex items-center justify-center gap-2">
+        <div className="w-4 h-4 border-2 border-white rounded-full animate-spin"></div>
+        {isLogin ? 'Signing In...' : 'Creating Account...'}
+      </div>
+    ) : (
+      isLogin ? 'Sign In' : 'Create Account'
+    )}
+  </motion.button>
         </form>
 
         <motion.div

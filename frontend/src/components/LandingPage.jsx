@@ -12,6 +12,7 @@ import img4 from "../assets/scrollImages/img4.jpg";
 import img5 from "../assets/scrollImages/img5.jpg";
 import img6 from "../assets/scrollImages/img6.jpg";
 import img7 from "../assets/scrollImages/img7.png";
+import DisasterInfo from "./DisasterInfo";
 // import DisasterInfo from "./DisasterInfo";
 
 
@@ -129,7 +130,7 @@ const LandingPage = () => {
 
 {/* disaster information
 <DisasterInfo/> */}
-
+{/* <DisasterInfo/> */}
 
         {/* div for displaying disaster related images */}
 
