@@ -7,7 +7,7 @@ import { createServer } from "http";
 import { Server } from "socket.io";
 import disasterRoutes from "./routes/disasterRoutes.js";
 import authRoutes from "./routes/authRoutes.js";
-
+import mlRoutes from "./routes/mlRoutes.js"
 
 // Load environment variables
 dotenv.config();
@@ -62,6 +62,9 @@ io.on("connection", (socket) => {
 app.get("/", (req, res) => {
   res.send("Welcome to Disaster Reporting API!");
 });
+
+// Use ML routes
+app.use("/ml", mlRoutes);
 
 // Start Server
 const PORT = process.env.PORT || 5000;
