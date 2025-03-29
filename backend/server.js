@@ -1,30 +1,38 @@
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
+import cookieParser from "cookie-parser";
 import mongoose from "mongoose";
 import { createServer } from "http";
 import { Server } from "socket.io";
 import disasterRoutes from "./routes/disasterRoutes.js";
+import authRoutes from "./routes/authRoutes.js";
 import mlRoutes from "./routes/mlRoutes.js"
 
 // Load environment variables
 dotenv.config();
 
 const app = express();
-const httpServer = createServer(app); // Create HTTP server for Socket.io
+const httpServer = createServer(app);
 const io = new Server(httpServer, {
   cors: {
-    origin: "*", // Allow frontend connection
+    origin: process.env.CLIENT_URL,
     methods: ["GET", "POST"],
-  },
+    credentials: true
+  }
 });
 
 // Middleware
 app.use(express.json());
-app.use(cors());
+app.use(cookieParser()); // Add cookie parser middleware
+app.use(cors({
+  origin: process.env.CLIENT_URL, // Replace with your frontend URL
+  credentials: true // Allow credentials (cookies)
+}));
 
-// API Routes
+app.use('/api/auth', authRoutes); // Add this line
 app.use("/api/disasters", disasterRoutes);
+
 
 // MongoDB Connection
 mongoose
