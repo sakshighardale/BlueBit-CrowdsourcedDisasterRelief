@@ -6,12 +6,13 @@ import { FaUser } from "react-icons/fa";
 
 
 
-const Navbar = () => {
+const Navbar = ({className}) => {
     const [isOpen, setIsOpen] = useState(false); 
     const [isLoggedIn] = useState(true);
 
 
     return (
+         <div className={`sticky top-0 z-50 ${className}`}>
         <motion.nav 
             className="bg-[#1995AD] shadow-md"
             initial={{ opacity: 0, y: -20 }}
@@ -140,6 +141,7 @@ const Navbar = () => {
                 )}
             </AnimatePresence>
         </motion.nav>
+        </div>
     );
 };
 

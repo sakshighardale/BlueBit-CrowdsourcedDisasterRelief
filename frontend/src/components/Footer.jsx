@@ -1,7 +1,7 @@
 import React from "react";
-const Footer = () => {
+const Footer = ({className}) => {
   return (
-    <footer className="bg-[#1995AD] py-8 w-full">
+    <footer className={`bg-[#1995AD] py-8 w-full ${className}`}>
       {" "}
       {/* Added w-full to make it take full width */}
       <div className="container mx-auto px-6">
