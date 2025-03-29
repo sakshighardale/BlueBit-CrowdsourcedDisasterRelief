@@ -36,7 +36,7 @@ const Navbar = ({ className }) => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.4 }}
                     >
-                        <NavItem to="/" text="Home" />
+                        {/* <NavItem to="/" text="Home" /> */}
                         <NavItem to="/map" text="Map" />
                         <NavItem to="/disasters" text="Disasters" />
                         <NavItem to="/donations" text="Donations" />
@@ -99,7 +99,7 @@ const Navbar = ({ className }) => {
                             exit={{ opacity: 0, y: -10 }}
                             transition={{ duration: 0.4 }}
                         >
-                            <NavItem to="/" text="Home" mobile />
+                            {/* <NavItem to="/" text="Home" mobile /> */}
                             <NavItem to="/map" text="Map" mobile />
                             <NavItem to="/about" text="About" mobile />
                             <NavItem to="/guide" text="Guidline" mobile />
