@@ -11,6 +11,7 @@ import DonatePage from './pages/Donate';
 import Guide from './pages/Guide';
 import { AuthProvider } from './contexts/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
+import Severity from './pages/Severity';
 
 const App = () => {
   return (
@@ -41,7 +42,9 @@ const App = () => {
 
           {/* Auth Routes */}
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/guide" element={<Guide />} />
           <Route path="/signup" element={<SignupPage />} />
+          <Route path="/disasters" element={<Severity />} />
         </Routes>
       </AuthProvider>
     </Router>

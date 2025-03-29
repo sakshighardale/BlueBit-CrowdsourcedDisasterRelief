@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const DisasterForm = ({ location, loadingLocation, error }) => {
   const [type, setType] = useState("");
@@ -48,6 +49,7 @@ const DisasterForm = ({ location, loadingLocation, error }) => {
 
       if (response.status === 201) {
         alert("Disaster reported successfully!");
+        window.location.href = "/map";
       }
     } catch (error) {
       console.error("Error reporting disaster:", error);

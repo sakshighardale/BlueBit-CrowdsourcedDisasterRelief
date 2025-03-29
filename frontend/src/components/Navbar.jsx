@@ -38,7 +38,9 @@ const Navbar = ({ className }) => {
                     >
                         <NavItem to="/" text="Home" />
                         <NavItem to="/map" text="Map" />
+                        <NavItem to="/disasters" text="Disasters" />
                         <NavItem to="/about" text="About" />
+                        <NavItem to="/guide" text="Guidlines" />
 
                         {/* Conditional Profile / Join Us Link */}
                         {!loading && (
@@ -99,6 +101,7 @@ const Navbar = ({ className }) => {
                             <NavItem to="/" text="Home" mobile />
                             <NavItem to="/map" text="Map" mobile />
                             <NavItem to="/about" text="About" mobile />
+                            <NavItem to="/guide" text="Guidline" mobile />
 
                             {/* Conditional Profile / Join Us for Mobile */}
                             {!loading && (
